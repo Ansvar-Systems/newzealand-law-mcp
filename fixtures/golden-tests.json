@@ -1,0 +1,181 @@
+{
+  "$schema": "./golden-tests.schema.json",
+  "version": "1.0",
+  "mcp_name": "New Zealand Law MCP",
+  "description": "Golden contract tests for the New Zealand Law MCP — 12 tests covering article retrieval, search, citation, cross-reference, and negative cases",
+  "tests": [
+    {
+      "id": "nz-001",
+      "category": "article_retrieval",
+      "description": "Retrieve Information Privacy Principle 1 from the Privacy Act 2020 — purpose of collection of personal information",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Privacy Act 2020",
+        "article": "Information Privacy Principle 1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["purpose"],
+        "fields_present": ["text", "article_number"],
+        "citation_url_pattern": "^https://www\\.legislation\\.govt\\.nz/"
+      }
+    },
+    {
+      "id": "nz-002",
+      "category": "article_retrieval",
+      "description": "Retrieve Section 3 of the Harmful Digital Communications Act 2015 — purpose and communication principles",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Harmful Digital Communications Act 2015",
+        "article": "3"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["purpose", "digital communication", "harm"],
+        "fields_present": ["text", "article_number"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "nz-003",
+      "category": "article_retrieval",
+      "description": "Retrieve Section 1 of the Companies Act 1993 — short title",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Companies Act 1993",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["Companies Act", "1993"],
+        "fields_present": ["text"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "nz-004",
+      "category": "search",
+      "description": "Full-text search for 'privacy' returns Privacy Act 2020 provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "privacy"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Privacy Act", "personal information", "privacy"]
+      }
+    },
+    {
+      "id": "nz-005",
+      "category": "search",
+      "description": "Full-text search for 'harmful digital communication' returns HDCA provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "harmful digital communication"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Harmful Digital Communications", "digital communication", "online"]
+      }
+    },
+    {
+      "id": "nz-006",
+      "category": "search",
+      "description": "Full-text search for 'electronic transaction' returns ETA provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "electronic transaction"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["Electronic Transactions", "electronic", "transaction"]
+      }
+    },
+    {
+      "id": "nz-007",
+      "category": "citation_roundtrip",
+      "description": "Citation for Privacy Act 2020 Section 22 includes legislation.govt.nz URL",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Privacy Act 2020",
+        "article": "22"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "citation_url_pattern": "^https://www\\.legislation\\.govt\\.nz/",
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "nz-008",
+      "category": "citation_roundtrip",
+      "description": "Citation for Companies Act 1993 Section 10 includes official identifier and URL",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Companies Act 1993",
+        "article": "10"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "fields_present": ["text"],
+        "citation_url_pattern": "^https://www\\.legislation\\.govt\\.nz/",
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "nz-009",
+      "category": "eu_cross_reference",
+      "description": "Privacy Act 2020 cross-reference to EU GDPR — NZ privacy framework compared to EU data protection",
+      "tool": "get_provision_eu_basis",
+      "input": {
+        "law_identifier": "Privacy Act 2020"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["GDPR", "General Data Protection Regulation", "2016/679", "EU adequacy"]
+      }
+    },
+    {
+      "id": "nz-010",
+      "category": "eu_cross_reference",
+      "description": "Commerce Act 1986 cross-reference to EU competition law frameworks",
+      "tool": "get_provision_eu_basis",
+      "input": {
+        "law_identifier": "Commerce Act 1986"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["competition", "EU", "antitrust", "Treaty on the Functioning"]
+      }
+    },
+    {
+      "id": "nz-011",
+      "category": "negative_test",
+      "description": "Non-existent New Zealand Act returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Fictional Kiwi Conservation Act 2099",
+        "article": "1"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    },
+    {
+      "id": "nz-012",
+      "category": "negative_test",
+      "description": "Malformed section number returns graceful error or empty result",
+      "tool": "get_provision",
+      "input": {
+        "law_identifier": "Privacy Act 2020",
+        "article": "999ZZZ-INVALID"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    }
+  ]
+}
