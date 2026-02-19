@@ -1,0 +1,48 @@
+# sources.yml
+schema_version: "1.0"
+mcp_name: "New Zealand Law MCP"
+jurisdiction: "NZ"
+
+sources:
+  - name: "New Zealand Legislation"
+    authority: "New Zealand Government, Parliamentary Counsel Office"
+    official_portal: "https://www.legislation.govt.nz"
+    canonical_identifier: "N/A (New Zealand legislation uses Act title + year as canonical identifier)"
+    retrieval_method: "XML_DOWNLOAD"
+    api_documentation: "https://www.legislation.govt.nz/subscribe/help"
+    update_frequency: "weekly"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+      url: "https://www.legislation.govt.nz/disclaimer"
+      summary: "New Zealand Government open data, free to use with attribution to the New Zealand Parliamentary Counsel Office"
+    coverage:
+      scope: "All New Zealand Acts of Parliament, legislative instruments, and regulations including Privacy Act 2020, Harmful Digital Communications Act 2015, Electronic Transactions Act 2002, Companies Act 1993, Commerce Act 1986, Films Videos and Publications Classification Act 1993"
+      limitations: "Historical versions before digitisation may be incomplete; some regulations may lag behind gazette publication; Imperial Acts still in force in NZ may not be fully covered"
+    languages:
+      - "en"
+      - "mi"
+
+  - name: "New Zealand Legal Information Institute (NZLII)"
+    authority: "NZLII, operated by AustLII in cooperation with University of Canterbury"
+    official_portal: "https://www.nzlii.org"
+    canonical_identifier: "N/A"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "weekly"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "NZLII Terms of Use"
+      url: "https://www.nzlii.org/nzlii/disclaimer.html"
+      summary: "Free access to New Zealand legal information; case law and supplementary materials; bulk download requires permission"
+    coverage:
+      scope: "Case law from the Supreme Court, Court of Appeal, High Court, and specialist tribunals; law reform commission reports; selected regulatory decisions"
+      limitations: "Not all case law is published; tribunal decisions may be incomplete; some historical decisions may be unavailable"
+    languages:
+      - "en"
+      - "mi"
+
+data_freshness:
+  automated_checks: true
+  check_frequency: "weekly"
+  last_verified: "PENDING_FIRST_INGEST"

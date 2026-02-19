@@ -1,0 +1,56 @@
+{
+  "$schema": "./golden-hashes.schema.json",
+  "version": "1.0",
+  "mcp_name": "New Zealand Law MCP",
+  "jurisdiction": "NZ",
+  "provisions": [
+    {
+      "id": "nz-hash-001",
+      "description": "Constitution Act 1986 — Section 1 (The Sovereign in right of New Zealand)",
+      "upstream_url": "https://www.legislation.govt.nz/act/public/1986/0114/latest/DLM94204.html",
+      "selector_hint": "Section 1 - The Sovereign in right of New Zealand",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "The Sovereign in right of New Zealand"
+    },
+    {
+      "id": "nz-hash-002",
+      "description": "Privacy Act 2020 — Section 2 (Commencement)",
+      "upstream_url": "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23224.html",
+      "selector_hint": "Section 2 - Commencement",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "This Act comes into force"
+    },
+    {
+      "id": "nz-hash-003",
+      "description": "Harmful Digital Communications Act 2015 — Section 3 (Purpose and communication principles)",
+      "upstream_url": "https://www.legislation.govt.nz/act/public/2015/0063/latest/DLM5711810.html",
+      "selector_hint": "Section 3 - Purpose",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "purpose of this Act"
+    },
+    {
+      "id": "nz-hash-004",
+      "description": "Companies Act 1993 — Section 1 (Short title)",
+      "upstream_url": "https://www.legislation.govt.nz/act/public/1993/0105/latest/DLM319570.html",
+      "selector_hint": "Section 1 - Short Title",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "Companies Act 1993"
+    },
+    {
+      "id": "nz-hash-005",
+      "description": "Commerce Act 1986 — Section 1 (Short title)",
+      "upstream_url": "https://www.legislation.govt.nz/act/public/1986/0005/latest/DLM87623.html",
+      "selector_hint": "Section 1 - Short Title",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "Commerce Act 1986"
+    },
+    {
+      "id": "nz-hash-006",
+      "description": "Electronic Transactions Act 2002 — Section 3 (Purpose of Act)",
+      "upstream_url": "https://www.legislation.govt.nz/act/public/2002/0035/latest/DLM154185.html",
+      "selector_hint": "Section 3 - Purpose",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "purpose of this Act"
+    }
+  ]
+}
