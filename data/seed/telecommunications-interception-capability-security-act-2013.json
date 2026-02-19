@@ -1,0 +1,1293 @@
+{
+  "id": "telecommunications-interception-capability-security-act-2013",
+  "type": "statute",
+  "title": "Telecommunications (Interception Capability and Security) Act 2013",
+  "title_en": "Telecommunications (Interception Capability and Security) Act 2013",
+  "short_name": "TICSA",
+  "status": "in_force",
+  "issued_date": "2013-11-11",
+  "in_force_date": "2014-05-11",
+  "url": "https://www.legislation.govt.nz/act/public/2013/0091/latest/whole.html",
+  "description": "Telecommunications (Interception Capability and Security) Act 2013 (New Zealand)",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "Title",
+      "content": "This Act is the Telecommunications (Interception Capability and Security) Act 2013."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "Commencement",
+      "content": "1 Part 1 , subpart 4 of Part 2 , and subparts 1 , 2 , 7 , and 8 of Part 4 come into force on the date that is 3 months after the date on which this Act receives the Royal assent. 2 The rest of this Act comes into force on the date that is 6 months after the date on which this Act receives the Royal assent."
+    },
+    {
+      "provision_ref": "s3",
+      "chapter": "Part 1: Preliminary provisions",
+      "section": "3",
+      "title": "",
+      "content": "1 In this Act, unless the context otherwise requires,— annual update means an update under section 69 applicant means a person that applies for registration under section 61 authorised person means any person authorised to execute or assist in the execution of an interception warrant or other lawful interception authority chief executive means a person occupying the position of chief executive, by whatever name called, or the person who performs substantially the same function classified security information has the meaning given by section 3A compliance order means an order made by the High Court under section 92 customer means a person who receives telecommunications services from, and has an account or billing relationship with, a network operator designated officer means a person appointed under section 72 Director means the Director-General of the Government Communications Security Bureau documents , in subpart 4 of Part 4 , means documents (within the meaning of section 4(1) of the Evidence Act 2006 ) in the possession or under the control of the network operator end-user , in relation to a telecommunications service, means a person who is the ultimate recipient of that service or of another service the provision of which is dependent on that service equipment , in this Part and Parts 2 and 3 , means both hardware and software full interception capability means the capability to intercept a telecommunication as described in section 10 information , in subpart 4 of Part 4 , means information in the possession or under the control of the network operator infrastructure-level service means any service that provides the physical medium over which telecommunications are transmitted (for example, optical fibre cable), but does not include the device or equipment that generates, transmits, or receives any telecommunication signal intelligence and security agency means— a the New Zealand Security Intelligence Service; or b the Government Communications Security Bureau intercept , in relation to a private telecommunication, includes hear, listen to, record, monitor, acquire, or receive the telecommunication— a while it is taking place on a telecommunications network; or b while it is in transit on a telecommunications network intercept accessible , in relation to a network or service, means the capability described in section 12 intercept ready , in relation to a network or service, means the capability described in section 11 interception warrant means— a a surveillance device warrant issued under section 53 of the Search and Surveillance Act 2012 or subpart 6 of Part 3 of the Mutual Assistance in Criminal Matters Act 1992 ; or b an intelligence warrant issued under Part 4 of the Intelligence and Security Act 2017 law enforcement agency means— a the New Zealand Police; or b a specified law enforcement agency within the meaning of section 50 of the Search and Surveillance Act 2012 that is approved by an Order in Council under that section to use interception devices Minister means the Minister of the Crown who, under the authority of any warrant or with the authority of the Prime Minister, is for the time being responsible for the administration of this Act Minister for Communications and Information Technology means the Minister of the Crown who, under the authority of any warrant or with the authority of the Prime Minister, is for the time being responsible for communications and information technology Minister responsible for the Government Communications Security Bureau means the Minister who, under the authority of any warrant or with the authority of the Prime Minister, is for the time being responsible for the administration of the Government Communications Security Bureau Minister of Trade means the Minister of the Crown who, under the authority of any warrant or with the authority of the Prime Minister, is for the time being responsible for trade national security , in relation to New Zealand, includes its economic well-being network means a system comprising telecommunication links to permit telecommunication network operations centre means any part of an organisation or a network that is responsible for controlling the operation, performance, or security of a public telecommunications network (whether or not any of those activities are outsourced) network operator means— a a person who owns, controls, or operates a public telecommunications network; or b a person who supplies (whether by wholesale or retail) another person with the capability to provide a telecommunications service network security risk means any actual or potential security risk arising from— a the design, build, or operation of a public telecommunications network; or b any interconnection to or between public telecommunications networks in New Zealand or with telecommunications networks overseas other lawful interception authority — a means an authorisation issued under Part 4 of the Intelligence and Security Act 2017 (within the meaning of section 47 of that Act); and b includes an authority to intercept a private communication (whether in an urgent or emergency situation or otherwise) that is granted or issued to any member of a surveillance agency under any other enactment outsourcing arrangement means any arrangement (whether contractual or otherwise) entered into by a network operator and another person within New Zealand (other than a surveillance agency) that enables the sharing of services for the purpose of meeting any interception capability requirements in this Act public data network — a means a data network used, or intended for use, in whole or in part, by the public; and b includes, without limitation, the following facilities: i Internet access; and ii email access public switched telephone network means a dial-up telephone network used, or intended for use, in whole or in part, by the public for the purposes of providing telecommunication between telecommunication devices public telecommunications network means— a a public switched telephone network; and b a public data network purely resold telecommunications service means any service— a that is supplied or provided to a network operator ( A ); and b that (A) resells, supplies, or provides to another person without making any technical modification to that service register means the register of network operators established under section 63 Registrar means the person appointed as the Registrar of network operators under section 73 responsible Ministers means— a the Minister in charge of the New Zealand Security Intelligence Service; and b the Minister responsible for the Government Communications Security Bureau; and c the Minister of Police security risk means any actual or potential risk to New Zealand's national security service provider — a means any person who, from within or outside New Zealand, provides or makes available in New Zealand a telecommunications service to an end-user (whether or not as part of a business undertaking and regardless of the nature of that business undertaking); but b does not include a network operator significant network security risk means a network security risk that is a significant risk to New Zealand's national security surveillance agency means— a a law enforcement agency; or b an intelligence and security agency telecommunication — a means the conveyance by electromagnetic means from one device to another of any encrypted or non-encrypted sign, signal, impulse, writing, image, sound, instruction, information, or intelligence of any nature, whether for the information of any person using the device or not; but b does not include any conveyance that constitutes broadcasting (within the meaning of section 2(1) of the Broadcasting Act 1989 ) telecommunication device — a means any terminal device capable of being used for transmitting or receiving a telecommunication over a network; and b includes a telephone device telecommunication link means any line, radio frequen"
+    },
+    {
+      "provision_ref": "s3A",
+      "chapter": "Part 1: Preliminary provisions",
+      "section": "3A",
+      "title": "Meaning of classified security information",
+      "content": "1 In this Act, classified security information means information— a that is held by a surveillance agency; and b that the head of the surveillance agency certifies in writing cannot be disclosed (except as authorised by or under an Act or other rule of law) because, in the opinion of the head of the surveillance agency,— i the information is information of a kind specified in subsection (2); and ii disclosure of the information would be disclosure of a kind specified in subsection (3). 2 Information falls within subsection (1) (b) (i) if it— a might lead to the identification of, or provide details of,— i the source of the information; or ii the nature, content, or scope of the information; or iii the nature or type of the assistance or operational methods available to the surveillance agency; or b is about particular operations that have been undertaken, or are being or are proposed to be undertaken, in relation to any of the functions of the surveillance agency; or c has been provided to the surveillance agency by the Government of another country or by an agency of such a Government or by an international organisation, and is information that cannot be disclosed by the surveillance agency because the Government, agency, or organisation that provided the information will not consent to the disclosure. 3 Disclosure of information falls within subsection (1) (b) (ii) if the disclosure would be likely— a to prejudice the security or defence of New Zealand or the international relations of the Government of New Zealand; or b to prejudice the entrusting of information to the Government of New Zealand on a basis of confidence by the Government of another country or any agency of such a Government, or by any international organisation; or c to prejudice the maintenance of the law, including the prevention, investigation, and detection of offences and the right to a fair trial; or d to endanger the safety of any person."
+    },
+    {
+      "provision_ref": "s3AB",
+      "chapter": "Part 1: Preliminary provisions",
+      "section": "3AB",
+      "title": "Meaning of traffic data",
+      "content": "1 In this Act, traffic data , in relation to a telecommunication,— a means information that is generated as a result of the making of the telecommunication (whether or not the telecommunication is sent or received successfully) and that identifies all or any of the following, as applicable to the telecommunication: i the nature of the telecommunication (including, for example, email and instant messaging): ii the path of the telecommunication, including (for example) the origin, direction, and destination of the telecommunication and, if the telecommunication is diverted from one number to another number, those numbers: iii the time at which, and date on which, the telecommunication is sent: iv the duration of the telecommunication: v the termination of the telecommunication: vi the size of any data or files transmitted by way of the telecommunication; but b excludes the content of the telecommunication. 2 In subsection (1),— a a reference to information identifying the origin of a telecommunication is a reference to information identifying— i the number from which the telecommunication originates; and ii if the telecommunication is generated from a mobile telephone, the point at which the telecommunication first enters a network; and b a reference to information identifying the destination of a telecommunication is a reference to information identifying the number to which the telecommunication is sent. 3 In subsection (2), number , in relation to a telecommunication, means the number, identifier, or address used by a network operator or a service provider for the purposes of— a identifying the origin of the telecommunication; and b directing the telecommunication to its intended destination. Examples Examples of a number, as defined, include the following: a telephone number: a mobile telephone number: a unique identifier for a telecommunication device (for example, an electronic serial number or a Media Access Control address): a user account identifier: an Internet Protocol address: an email address."
+    },
+    {
+      "provision_ref": "s3B",
+      "chapter": "Part 1: Preliminary provisions",
+      "section": "3B",
+      "title": "Transitional, savings, and related provisions",
+      "content": "The transitional, savings, and related provisions set out in Schedule 1AA have effect according to their terms."
+    },
+    {
+      "provision_ref": "s4",
+      "chapter": "Part 1: Preliminary provisions",
+      "section": "4",
+      "title": "",
+      "content": "This Act binds the Crown."
+    },
+    {
+      "provision_ref": "s5",
+      "chapter": "Part 1: Preliminary provisions",
+      "section": "5",
+      "title": "",
+      "content": "The purpose of this Act in relation to interception capability is to— a ensure that surveillance agencies are able to effectively carry out the lawful interception of telecommunications under an interception warrant or any other lawful interception authority; and b ensure that surveillance agencies, in obtaining assistance for the interception of telecommunications, do not create barriers to the introduction of new or innovative telecommunications technologies; and c ensure that network operators and service providers have the freedom to choose system design features and specifications that are appropriate for their own purposes."
+    },
+    {
+      "provision_ref": "s6",
+      "chapter": "Part 1: Preliminary provisions",
+      "section": "6",
+      "title": "",
+      "content": "The following principles must be applied by persons who exercise powers and carry out duties under this Act in relation to interception capability, if those principles are relevant to those powers or duties: a the principle that the privacy of telecommunications that are not subject to an interception warrant or any other lawful interception authority must be maintained to the extent provided for in law: b the principle that the interception of telecommunications, when authorised under an interception warrant or any other lawful interception authority, must be carried out without unduly interfering with any telecommunications."
+    },
+    {
+      "provision_ref": "s7",
+      "chapter": "Part 1: Preliminary provisions",
+      "section": "7",
+      "title": "Purpose of this Act relating to network security",
+      "content": "The purpose of this Act in relation to network security is to prevent, sufficiently mitigate, or remove security risks arising from— a the design, build, or operation of public telecommunications networks; and b interconnections to or between public telecommunications networks in New Zealand or with networks overseas."
+    },
+    {
+      "provision_ref": "s8",
+      "chapter": "Part 1: Preliminary provisions",
+      "section": "8",
+      "title": "Principles relating to network security",
+      "content": "1 The following principles must, as far as practicable, be applied by the Director and each network operator in relation to network security risks: a the principle that network security risks that might arise from a proposed decision, course of action, or change if implemented should be identified and addressed as early as possible: b the principle that the Director and each network operator should work co-operatively and collaboratively with each other in relation to the principle in paragraph (a). 2 The Director is subject to the principle that any decision or steps required of the Director for the purpose of exercising any function or power under Part 3 should, in the absence of any applicable regulations, be made or taken as soon as practicable. 3 The Minister responsible for the Government Communications Security Bureau must, when making any decision or exercising any function or power under Part 3 in relation to a network security risk, have regard to the principle in subsection (4). 4 The principle that the decision or exercise of the function or power should be proportionate to the network security risk. 5 In subsection (4), a decision or an exercise of a function or power is proportionate to the network security risk if the Minister is satisfied that it does not impose costs on network operators, customers, or end-users beyond those reasonably required to enable the network security risk to be prevented, sufficiently mitigated, or removed."
+    },
+    {
+      "provision_ref": "s9",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "9",
+      "title": "Network operators must ensure public telecommunications networks and telecommunications services have full interception capability",
+      "content": "1 A network operator must ensure that every public telecommunications network that the operator owns, controls, or operates, and every telecommunications service that the operator provides in New Zealand, has full interception capability. 2 However, subsection (1)— a does not require a network operator to ensure that all components of the public telecommunications network or telecommunications service referred to in that subsection have full interception capability; and b is sufficiently complied with if a network operator ensures, in whatever manner the network operator thinks fit, that at least 1 component of that network or service has full interception capability. 3 Without limiting subsection (1), the duty under that subsection to have full interception capability includes the duty to ensure that the interception capability is developed, installed, and maintained."
+    },
+    {
+      "provision_ref": "s10",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "10",
+      "title": "When duty to have full interception capability is complied with",
+      "content": "1 A public telecommunications network or a telecommunications service has full interception capability if every surveillance agency that is authorised under an interception warrant or any other lawful interception authority to intercept telecommunications or services on that network, or the network operator concerned, is able to— a identify and intercept telecommunications without intercepting telecommunications that are not authorised to be intercepted under the warrant or lawful authority; and b obtain traffic data relating to telecommunications (other than telecommunications that are not authorised to be intercepted under the warrant or lawful authority); and c obtain traffic data and the content of telecommunications (other than telecommunications that are not authorised to be intercepted under the warrant or lawful authority) in a useable format; and d carry out the interception of telecommunications unobtrusively, without unduly interfering with any telecommunications, and in a manner that protects the privacy of telecommunications that are not authorised to be intercepted under the warrant or lawful authority; and e undertake the actions referred to in paragraphs (a) to (d) efficiently and effectively and,— i if it is reasonably achievable, at the time of transmission of the telecommunication; or ii if it is not reasonably achievable, as close as practicable to that time. 2 If a network operator, or an employee or agent of a network operator, undertakes the interception of a telecommunication on behalf of a surveillance agency under subsection (1), the interception must be taken to be complete when the network operator provides the traffic data or the content of the telecommunication, or both, to the surveillance agency. 2A Nothing in subsection (1) (b) or (c) requires a network operator to be able to obtain specified traffic data relating to a telecommunication carried over a public data network that they own, control, or operate to the extent that the telecommunication is transmitted using a service that— a is dependent on Internet access; and b is provided by someone other than the network operator. Guidance note This subsection relates to telecommunications that pass “over the top” of a public data network using Internet-dependent services provided by a person other than the network operator that owns, controls, or operates the public data network. For example, an effect of this subsection is that the network operator is not required to be able to obtain information that identifies the nature of a telecommunication as an email or instant message if the network operator does not provide a related email or instant messaging service. 3 A network operator must, in order to comply with subsection (1) (c), decrypt a telecommunication on that operator's public telecommunications network or telecommunications service if— a the content of that telecommunication has been encrypted; and b the network operator intercepting the telecommunication has provided that encryption. 4 However, subsection (3) does not require a network operator to— a decrypt any telecommunication on that operator's public telecommunications network or telecommunications service if the encryption has been provided by means of a product that is— i supplied by a person other than the operator and is available to the public; or ii supplied by the operator as an agent for that product; and b ensure that a surveillance agency has the ability to decrypt any telecommunication. 5 In this section,— specified traffic data , in relation to a telecommunication, means traffic data that identifies the nature of the telecommunication ( see section 3AB(1) (a) (i) ) useable format means— a a format that is determined by a notice issued under section 42 ; or b a format that is acceptable to the network operator and the surveillance agency executing the interception warrant or other lawful interception authority."
+    },
+    {
+      "provision_ref": "s11",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "11",
+      "title": "Interception ready",
+      "content": "1 A network operator that is required by or under this subpart to ensure that a network or service is intercept ready— a must pre-deploy access points at suitable and sufficient concentration points on the network or service to allow an interception warrant or any other lawful interception authority relating to any of its customers to be given effect: b must reserve 1 or more network interfaces (that is, delivery ports) to which interception equipment can connect in order to deliver intercepted telecommunications to the surveillance agency; and c must reserve, for each reserved interface referred to in paragraph (b), sufficient bandwidth to deliver intercepted telecommunications content and traffic data to the relevant surveillance agency; and d when presented with an interception warrant or any other lawful interception authority must, free of charge,— i provide a suitable access point in its public telecommunications network or service for interception equipment: ii co-operate with authorised persons and allow them access to its premises: iii provide sufficient environmentally controlled space to house the interception equipment or provide sufficient backhaul to a suitable location where the equipment can be housed: e must, when compliance with the Act is required to be tested, comply with paragraphs (a) to (d). 2 A network operator referred to in section 13 or 14 is not eligible for reimbursement under section 115 if the network operator's network or service was intercept ready only."
+    },
+    {
+      "provision_ref": "s12",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "12",
+      "title": "Interception accessible",
+      "content": "A network operator that is required by or under this subpart to ensure that a network or service is intercept accessible must, when presented with an interception warrant or any other lawful interception authority, be willing and able to— a provide a suitable access point in its public telecommunications network or service for interception equipment: b co-operate with authorised persons and allow them access to its premises: c provide sufficient environmentally controlled space to house the interception equipment or provide sufficient backhaul to a suitable location where the equipment can be housed."
+    },
+    {
+      "provision_ref": "s13",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "13",
+      "title": "Network operators with fewer than 4 000 customers",
+      "content": "1 Subsection (2) applies if— a a network operator makes and keeps a record of the number of customers it has each month; and b the network operator has an average of less than 4 000 customers over a 6-month period; and c the network operator has made and kept the record referred to in paragraph (a) for each month of the 6-month period referred to in paragraph (b); and d the network operator has notified the Registrar within 10 days after the last day of the 6-month period referred to in paragraph (b) of the matters described in paragraphs (b) and (c). 2 If this section applies, the network operator— a does not have to comply with sections 9 and 10 ; but b must instead ensure that every public telecommunications network that the operator owns, controls, or operates, and every telecommunications service that the operator provides in New Zealand is intercept ready at all times. 3 Subsection (2) continues to apply to the network operator as long as the network operator— a continues to make and keep a record of the number of customers it has each month; and b continues to maintain an average of less than 4 000 customers per month over each successive 6-month period. 4 If the network operator referred to in subsection (2) subsequently has an average of 4 000 or more customers over a 6-month period ( disqualifying 6 months ),— a the exemption in subsection (2) (a) ceases to have effect on the date that is 6 months after the disqualifying 6 months; and b the network operator must comply with subsection (2) (b) until the date that the exemption ceases to have effect. 5 This section is subject to section 19 . 6 The record referred to in subsection (1) (a) must be made on the same working day of each month (or the next available working day, if that is not practicable)."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "14",
+      "title": "Infrastructure-level services",
+      "content": "1 A network operator does not have to comply with sections 9 and 10 in respect of any infrastructure-level service provided by the network operator. 2 This section is subject to section 19 ."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "15",
+      "title": "Wholesale network services",
+      "content": "1 A network operator does not have to comply with sections 9 and 10 in respect of any wholesale network service provided by the network operator. 2 A network operator who does not comply with sections 9 and 10 in respect of a wholesale network service provided by the network operator must ensure that the wholesale network service is intercept accessible. 3 This section is subject to section 19 ."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "16",
+      "title": "Overview of sections 17 to 19",
+      "content": "1 The purpose of sections 17 to 19 is to enable the Minister, on the application of a surveillance agency, to,— a in the case of a network or service that by the operation of section 13 or 15 is subject to a lower-level compliance duty, direct that the network or service or part of the network or service must instead be subject to a higher-level compliance duty: b direct that an infrastructure-level service or part of that service must be subject to a higher-level compliance duty. 2 The following duties are ranked according to the level of interception capability that is required to fulfil the duty (with the duty set out in paragraph (a) being the highest level compliance duty): a the duty to comply with sections 9 and 10 : b the duty to be intercept ready: c the duty to be intercept accessible. 3 This overview is by way of explanation only. If any provision of this Part conflicts with this overview, the other provision prevails."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "17",
+      "title": "Application for direction",
+      "content": "1 A surveillance agency may make an application for a direction under section 19 only if the surveillance agency considers that the interception capability or lack of interception capability on a network or a service adversely affects national security or law enforcement. 2 The surveillance agency must, when applying for a direction, notify the affected network operator in writing of the application and specify in the notice a time, which must be reasonable in the circumstances, within which submissions may be made to the Minister on the application."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "18",
+      "title": "Process following application for direction",
+      "content": "1 The affected network operator may make submissions to the Minister in relation to the application for direction within the time specified in the notice referred to in section 17(2) . 2 The Minister must consult with the responsible Ministers and the Minister for Communications and Information Technology. 3 The matters that the Minister must take into account are— a whether the current level of interception capability on the affected network or service adversely affects national security or law enforcement; and b whether the cost of compliance would have a serious adverse effect on the business of the network operator; and c whether the new duties would unreasonably impair the provision of telecommunications services in New Zealand or competition in telecommunications markets or create barriers to the introduction of new or innovative technologies; and d any other matter that the Minister considers relevant in the circumstances. 4 The Minister must give primacy to the matter described in subsection (3) (a)."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "19",
+      "title": "Direction",
+      "content": "1 The Minister must not make a direction under this section unless the Minister— a has taken into account the views, if any, of the persons referred to in section 18(2) and the affected network operator; and b has taken into account the matters set out in section 18(3) and (4) ; and c is satisfied on reasonable grounds that the direction is necessary for reasons of national security or law enforcement or both. 2 The Minister may,— a in the case of a network or service that under section 13 must be intercept ready, direct that the network or service or part of the network or service must instead comply with sections 9 and 10 : b in the case of an infrastructure-level service that under section 14 does not have to comply with sections 9 and 10 , direct that the service or part of that service must instead— i be intercept accessible; or ii be intercept ready; or iii comply with sections 9 and 10 : c in the case of a wholesale network service that by the operation of section 15 must be intercept accessible, direct that the service or part of the service must instead— i be intercept ready; or ii comply with sections 9 and 10 . 3 The Minister must issue the direction by written notice to the affected network operator. 4 The Minister must specify in the direction a time, which must be reasonable in the circumstances, by which the network operator must comply with the direction. 5 The reasons for the decision must be set out in the direction, except those parts of the reasons that would reveal classified information. 5A See subpart 7 , which applies when the Minister uses classified security information in making a decision to make a direction under this section. 6 The Minister must not delegate to any person, other than another Minister, the power to make a direction under this section."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "20",
+      "title": "Regulations",
+      "content": "1 The Governor-General may, by Order in Council, on the recommendation of the Minister, make regulations— a requiring all or part of a specified class of network or service to which section 13 applies to comply with sections 9 and 10 : b requiring all or part of a specified class of infrastructure-level service to which section 14 applies to— i be intercept accessible; or ii be intercept ready; or iii comply with sections 9 and 10 : c requiring all or part of a specified class of wholesale network services to which section 15 applies to— i be intercept ready; or ii comply with sections 9 and 10 . 2 The Minister must not recommend the making of regulations under subsection (1) unless the Minister— a has consulted with the telecommunications industry in accordance with the process set out in subsection (3): b has taken account of the matters set out in section 18(3) and (4) ; and c has consulted with the responsible Ministers and the Minister for Communications and Information Technology; and d is satisfied that the commencement of the regulations allows for a reasonable time for compliance. 3 The consultation process referred to in subsection (2) (a) requires that the Minister— a publish, on an Internet site operated by the Ministry, a notice that— i sets out the effect of the proposed regulations ( proposal ); and ii invites submissions on the proposal to be made by a specified date; and b consider the submissions (if any) on the proposal. 4 Regulations under this section are secondary legislation ( see Part 3 of the Legislation Act 2019 for publication requirements)."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "21",
+      "title": "Certain facilities not required to be intercept capable",
+      "content": "A network operator is not required to have an interception capability on a telecommunication link that is used to interconnect 2 or more public telecommunications networks."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "22",
+      "title": "Design of networks not affected by this Part",
+      "content": "This Part does not authorise a surveillance agency or the Minister to— a require any person to adopt a specific design or feature for any network or service; or b prohibit any person from adopting any specific design or feature for any network or service."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "23",
+      "title": "Duties relating to infrastructure-level services",
+      "content": "A network operator that provides an infrastructure-level service must, despite anything to the contrary in any deed, contract, or other enactment or rule of law,— a ensure that the Registrar is advised of the names of all existing customers that purchase infrastructure-level services from the provider; and b ensure that the Registrar is advised of the names of any new customer— i at least 10 working days before providing or activating the infrastructure-level service to the customer; or ii if it is not reasonably practicable to comply with subparagraph (i), as soon as is reasonably practicable before providing or activating the infrastructure-level service to the customer."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "24",
+      "title": "Duty to assist",
+      "content": "1 A surveillance agency to whom an interception warrant is issued, or any other lawful interception authority is granted, may, for the purpose of requiring assistance in the execution of the warrant or lawful authority, show to either or both of the persons referred to in subsection (2),— a in the case of an interception warrant issued to an intelligence and security agency, a copy of the relevant parts of the warrant; or b in any other case, a copy of the warrant or evidence of lawful authority. 2 The persons are— a a network operator; or b a service provider. 3 A person who is shown under subsection (1) a copy of an interception warrant or the relevant parts of the warrant, or evidence of any other lawful interception authority, must assist the surveillance agency by— a making available any of the person's officers, employees, or agents who are able to provide any reasonable technical assistance that may be necessary for the agency to intercept a telecommunication or otherwise give effect to the warrant or lawful authority; and b taking all other reasonable steps that are necessary for the purpose of giving effect to the warrant or lawful authority, which may include, but are not limited to, assistance to— i identify and intercept telecommunications without intercepting telecommunications that are not authorised to be intercepted under the warrant or lawful authority; and ii obtain traffic data relating to telecommunications (other than telecommunications that are not authorised to be intercepted under the warrant or lawful authority); and iii obtain traffic data and the content of telecommunications (other than telecommunications that are not authorised to be intercepted under the warrant or lawful authority) in a useable format; and iv carry out the interception of telecommunications unobtrusively, without unduly interfering with any telecommunications, and in a manner that protects the privacy of telecommunications that are not authorised to be intercepted under the warrant or lawful authority; and v undertake the actions referred to in subparagraphs (i) to (iv) efficiently and effectively and,— A if it is reasonably achievable, at the time of transmission of the telecommunication; or B if it is not reasonably achievable, as close as practicable to that time; and vi decrypt telecommunications where the person has provided the encryption. 4 Subsection (3) (b) (vi) does not require the person to— a decrypt any telecommunication on that person's public telecommunications network or telecommunications service if the encryption has been provided by means of a product that is— i supplied by the person as an agent for that product; or ii supplied by another person and is available to the public; and b ensure that a surveillance agency has the ability to decrypt any telecommunication. 5 A network operator or service provider must consult with the surveillance agency executing the warrant or lawful authority, regarding the most efficient way to undertake the decryption referred to in subsection (3) (b) (vi). 6 For the purposes of this section, a network operator may intercept a telecommunication on behalf of a surveillance agency. 7 In subsection (3) (b) (iii), useable format means— a the format determined by a notice issued under section 42 ; or b a format that is acceptable to— i the network operator or service provider; and ii the surveillance agency executing the warrant or lawful authority. 8 Nothing in this section affects the application of the common law defence of foreign state compulsion to a service provider outside New Zealand."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "25",
+      "title": "Wholesaler may charge",
+      "content": "1 If— a a wholesaler is required under an interception warrant or any other lawful interception authority to provide another network operator ( A ) with an access point to the wholesaler's network; and b the wholesaler's assistance is sought because A did not comply with any obligation under this Part,— the wholesaler may charge A, on a commercial basis, for any access, space, power, or any other thing or service that the wholesaler is required to provide for the purpose of giving effect to the warrant or lawful authority. 2 A designated officer may notify A in writing that the wholesaler is entitled to charge A under this section. 3 In this section, wholesaler means a network operator who provides wholesale network services."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "26",
+      "title": "Duty to minimise impact of interception on third parties",
+      "content": "Every person who, under an interception warrant or any other lawful interception authority, intercepts or assists in the interception of a telecommunication must take all practicable steps that are reasonable in the circumstances to minimise the likelihood of intercepting telecommunications that are not authorised to be intercepted under the warrant or lawful authority."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "27",
+      "title": "Network operators may share resources",
+      "content": "1 Nothing in this Act prevents network operators from co-ordinating, sharing, or contracting for services (whether equipment or staff) in order to meet the interception capability requirements in the Act. 2 However, any arrangement referred to in subsection (1) does not affect any obligations that apply to a network operator and that have been imposed by or under this Act."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "28",
+      "title": "Obligations relating to arrangements for interception services",
+      "content": "1 Before a network operator enters into a contract or engages with any person for the provision of services to enable the network operator to comply with its obligations under this Part, the network operator must notify the Director in accordance with section 48 , and comply with section 68 . 2 A network operator must ensure that any person that it enters into a contract or engages with for the provision of services to enable the network operator to comply with its obligations under this Part, complies with any applicable provisions of this Part."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "29",
+      "title": "Exemption",
+      "content": "1 A designated officer may, in accordance with section 32 ,— a grant, subject to subsection (2), a network operator or class of network operators an exemption from all or any of the requirements of sections 9 and 10 : b grant a network operator or class of network operators an exemption from all or any of the requirements of section 13 and, in relation to the requirement under that section that the network or service be intercept ready, from all or any of the requirements of section 11 : c grant a network operator or a class of network operators an exemption from all or any of the requirements of section 23 : d vary or revoke an exemption referred to in paragraph (a), (b), or (c). 2 An exemption under subsection (1) (a) must not affect the requirements in section 10 that relate to the ability to protect the privacy of telecommunications that are not authorised to be intercepted under an interception warrant or any other lawful authority. 3 An exemption under subsection (1)— a may, without limitation, apply to all or part of a specified service or network or class of service or network; and b may be subject to any terms and conditions specified by the designated officer. 4 The designated officer may grant an exemption under subsection (1) with or without application from a network operator. 5 An exemption, revocation, or variation under this section is secondary legislation ( see Part 3 of the Legislation Act 2019 for publication requirements), unless it applies only to 1 or more named network operators."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "30",
+      "title": "Application for exemption",
+      "content": "1 A network operator may apply to a designated officer for an exemption or a variation or revocation of an exemption under section 29(1) . 2 The designated officer must notify the applicant of receipt of the application as soon as practicable. 3 The designated officer must advise the applicant of the decision as soon as practicable and no later than 20 working days after receipt of the application. 4 The designated officer may extend the time referred to in subsection (3) if— a the application relates to multiple services; or b the application raises new or complex technical or legal issues; or c responding within that time would cause unreasonable interference with the operations of a surveillance agency. 5 If subsection (4) applies, the designated officer must— a extend the time referred to in subsection (3) to a date not later than 3 months after receipt of the application, or to any later date to which the designated officer and the applicant have agreed; and b give the applicant a notice of extension within 20 working days of receiving the application. 6 The notice of extension must set out the reasons for the extension and the new time by which the designated officer must respond."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "31",
+      "title": "Effect of application for exemption or variation",
+      "content": "1 The effect of an application under section 29(1) is that, from the date that receipt of the application is notified, to the date that the decision on the application is notified,— a in the case of an application for exemption, the applicant is treated as being exempt from the obligation for which the exemption is sought; or b in the case of an application to vary an exemption, the exemption is treated as being in force as varied. 2 Subsection (1) does not apply to an applicant if— a the designated officer considers, on reasonable grounds, that the applicant is persistently or repeatedly seeking the same or a similar exemption or variation in relation to the same matter, or seeking the same outcome, despite the application being refused; and b the designated officer has notified the applicant accordingly."
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "32",
+      "title": "Decision-making process",
+      "content": "1 The designated officer must, when considering whether to grant, vary, or revoke an exemption under section 29(1) , take account of all the following matters: a national security or law enforcement interests; and b the number of customers or end-users of the relevant network or service; and c the cost of compliance with the obligation for which an exemption is sought; and d whether compliance could be achieved appropriately by another means; and e any other matter that the designated officer considers relevant in the circumstances. 2 The designated officer must, when taking account of the matters set out in subsection (1), give primacy to subsection (1) (a). 3 The designated officer must consult each of the surveillance agencies, as well as the applicant (if any), on the proposed decision. 4 5 The designated officer must issue a written notice of the decision to the applicant or, in the case of a class exemption, to the class of network operators who are affected by the decision. 6 6 The reasons for the decision must be set out in the written notice, except those parts of the reasons that would reveal classified security information. 7 See subpart 7 , which applies when a designated officer uses classified security information in making a decision to grant, vary, or revoke an exemption under section 29 ."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "33",
+      "title": "Application to Minister",
+      "content": "1 A network operator whose application for an exemption or variation of an exemption has been wholly or partly declined, or whose exemption has been or is to be revoked, may apply to the Minister for a decision. 2 An application to the Minister must be made within 20 working days after the date on which the designated officer's decision on the application is issued, or the exemption is to be revoked. 3 The Minister must notify receipt of the application as soon as practicable. 4 An application to the Minister must not be materially different from the original application."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "34",
+      "title": "Minister may grant, vary, or revoke exemption",
+      "content": "1 The Minister may, in accordance with section 36 ,— a grant, subject to subsection (2), a network operator or class of network operators an exemption from all or any of the requirements of sections 9 and 10 : b grant a network operator or class of network operators an exemption from all or any of the requirements of section 13 and, in relation to the requirement under that section that the network or service be intercept ready, from all or any of the requirements of section 11 : c grant a network operator or a class of network operators an exemption from all or any of the requirements of section 23 : d vary or revoke an exemption referred to in paragraph (a), (b), or (c). 2 An exemption under subsection (1) (a) must not affect the requirements in section 10 that relate to the ability to protect the privacy of telecommunications that are not authorised to be intercepted under an interception warrant or any other lawful authority. 3 An exemption under subsection (1)— a may, without limitation, apply to all or part of a specified service or network or class of service or network; and b may be subject to any terms and conditions specified by the Minister. 4 An exemption, revocation, or variation under this section is secondary legislation ( see Part 3 of the Legislation Act 2019 for publication requirements), unless it applies only to 1 or more named network operators."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "35",
+      "title": "Effect of application for exemption or variation",
+      "content": "1 The effect of an application under section 33 is that from the date that the designated officer's decision is issued under section 32(5) to the date that the Minister's decision on the application is notified,— a in the case of an application for exemption, the applicant is treated as being exempt from the obligation for which the exemption is sought; or b in the case of an application to vary an exemption, the exemption is treated as being in force as varied. 2 Subsection (1) does not apply to an applicant if— a the Minister considers, on reasonable grounds, that the applicant is persistently or repeatedly seeking the same or a similar exemption or variation in relation to the same matter, or seeking the same outcome, despite the application being refused; and b the Minister has notified the applicant accordingly."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "36",
+      "title": "Decision-making process",
+      "content": "1 The Minister must consult the responsible Ministers and the Minister for Communications and Information Technology before making a decision on the application. 2 The Minister must decide the application as soon as is practicable. 3 The Minister must, when considering whether to grant, vary, or revoke an exemption, take account of the following matters: a national security or law enforcement interests; and b the number of customers or end-users of the relevant network or service; and c the cost of compliance with the obligation for which an exemption is sought; and d whether compliance could be achieved appropriately by another means; and e any other matter that the Minister considers relevant in the circumstances. 4 The Minister must, when taking account of the matters set out in subsection (3), give primacy to subsection (3) (a). 5 6 The Minister must issue a written notice of the decision to the applicant or, in the case of a class exemption, to the class of network operators who are affected by the decision. 7 7 The reasons for the decision must be set out in the written notice, except those parts of the reasons that would reveal classified security information. 8 See subpart 7 , which applies when the Minister uses classified security information in making a decision to grant, vary, or revoke an exemption."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "37",
+      "title": "Regulations relating to class exemptions",
+      "content": "1 The Governor-General may, by Order in Council, on the recommendation of the Minister, make regulations— a granting, subject to subsection (2), a class of network operators an exemption from all or any of the requirements of sections 9 and 10 : b granting a class of network operators an exemption from all or any of the requirements of section 13 and, in relation to the requirement under that section that the network or service be intercept ready, from all or any of the requirements of section 11 : c granting a class of network operators an exemption from all or any of the requirements of section 23 . 2 Regulations under subsection (1) (a) must not affect the requirements in section 10 that relate to the ability to protect the privacy of telecommunications that are not authorised to be intercepted under an interception warrant or any other lawful authority. 3 Regulations under subsection (1) may, without limitation, apply to all or part of a specified service or network or class of service or network. 4 The Minister must not recommend the making of regulations under subsection (1) unless the Minister has— a taken account of the matters set out in section 36(3) and (4) ; and b consulted the responsible Ministers and the Minister for Communications and Information Technology. 5 Regulations under this section are secondary legislation ( see Part 3 of the Legislation Act 2019 for publication requirements)."
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "38",
+      "title": "Minister may require service providers to have same obligations as network operators",
+      "content": "1 The Minister may, at the application of a surveillance agency in accordance with this section, direct that a telecommunications service provider— a comply with one of the following duties: i the duty to comply with sections 9 and 10 : ii the duty to be intercept ready: iii the duty to be intercept accessible; and b be treated as having the same obligations and rights as a network operator under this Part (except for sections 13 to 20 , and 23 ) and Parts 1 and 4 . 2 A surveillance agency may make an application for a ministerial direction under this section only if— a the surveillance agency considers that lack of interception capability on the telecommunications service offered by that provider adversely affects national security or law enforcement; and b at the time of application, 1 or more telecommunications service offered by that provider is a service over which the surveillance agency could lawfully execute an interception warrant or any other lawful interception authority. 3 The surveillance agency must, when applying for a ministerial direction, notify the affected service provider in writing that it is applying for a direction under this section and specify in the notice a time, which must be reasonable in the circumstances, within which submissions may be made to the Minister on the application. 4 The affected service provider may make submissions to the Minister on the application. 5 The Minister must consult with the responsible Ministers and the Minister for Communications and Information Technology. 6 The Minister must not make a direction unless— a the Minister has taken into account the views, if any, of the Ministers referred to in subsection (5) and the affected service provider; and b the Minister has taken account of the matters set out in subsection (7); and c the Minister is satisfied on reasonable grounds that the direction is necessary for reasons of national security or law enforcement, or both. 7 The matters that the Minister must take into account are— a whether the current level of interception capability on any services provided by the affected service provider adversely affects national security or law enforcement; and b whether the cost of compliance would have a serious adverse effect on the business of the affected service provider; and c whether the new duties would unreasonably impair the provision of telecommunications services in New Zealand or competition in telecommunications markets or create barriers to the introduction of new or innovative technologies; and d any other matter that the Minister considers relevant in the circumstances. 8 The Minister must give primacy to the matter described in subsection (7) (a). 9 The Minister must not delegate to any person, other than another Minister, the power to make a direction under this section."
+    },
+    {
+      "provision_ref": "s39",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "39",
+      "title": "Review",
+      "content": "1 If a direction is made under section 38 , the affected service provider may request a review of the Minister’s decision. 2 On receiving a request for review, the Minister must appoint 3 suitably qualified persons to form a review panel. 3 In subsection (2), a person is suitably qualified if the person— a has experience in— i telecommunications technology; or ii national security or law enforcement; or iii competition in telecommunications markets; or iv international relations or international law; and b does not have any conflict of interest in relation to the direction; and c has or is able to obtain an appropriate security clearance. 4 The review panel must— a review all relevant submissions made to the Minister, and take into account all other relevant information; and b make recommendations to the Minister on whether the service provider should be treated as a network operator. 5 The Minister must, after considering the recommendations of the review panel, vary, confirm, or revoke the direction. 6 A summary of the review panel’s recommendations and reasons must be provided to the affected service provider, except those parts of the reasons that would reveal classified security information. 7 See subpart 7 , which applies when a review panel uses classified security information in making recommendations under this section and the Minister decides to confirm or vary the direction."
+    },
+    {
+      "provision_ref": "s40",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "40",
+      "title": "Direction notice",
+      "content": "1 If the Minister makes a direction under section 38 , a written notice of the direction must be provided to the affected service provider together with reasons, except those parts of the reasons that would reveal classified security information. 2 The direction— a must state which of the duties referred to in section 38(1) (a) that the affected service provider must comply with; and b must specify a time, which must be reasonable in the circumstances, by which the duty or duties must be complied with; and c may be subject to any terms and conditions specified by the Minister. 2A See subpart 7 , which applies when the Minister uses classified security information in making a decision to make a direction under section 38 . 3 The effect of the direction is that this Part (except for sections 13 to 20 , and 23 ) and Parts 1 and 4 apply to the affected service provider as if the service provider were a network operator under this Act. 4 The Minister may, after consulting the Ministers referred to in section 38(5) , revoke the direction at any time."
+    },
+    {
+      "provision_ref": "s41",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "41",
+      "title": "Regulations relating to service providers",
+      "content": "1 The Governor-General may, by Order in Council, on the recommendation of the Minister, make regulations specifying that a class of service providers must— a comply with one of the following duties: i the duty to comply with sections 9 and 10 : ii the duty to be intercept ready: iii the duty to be intercept accessible; and b be treated as having the same obligations and rights as a network operator under this Part (except for sections 13 to 20 , and 23 ) and Parts 1 and 4 . 2 Regulations under subsection (1) may, without limitation, apply to all or part of a telecommunications service or class of telecommunications service. 3 The Minister must not recommend the making of regulations under subsection (1) unless the Minister— a has consulted the telecommunications industry in accordance with the process set out in subsection (4); and b has taken account of the matters set out in section 38(7) and (8) ; and c has consulted with the Ministers referred to in section 38(5) . 4 The consultation process referred to in subsection (3) (a) requires that the Minister— a publish, on an Internet site operated by the Ministry, a notice that— i sets out the effect of the proposed regulations ( proposal ); and ii invites submissions on the proposal to be made by a specified date; and b consider the submissions (if any) on the proposal. 5 The effect of the regulations is that this Part (except for sections 13 to 20 , and 23 ) and Parts 1 and 4 apply to a service provider falling within a class specified in the regulations, as if the service provider were a network operator under this Act. 6 Regulations under this section are secondary legislation ( see Part 3 of the Legislation Act 2019 for publication requirements)."
+    },
+    {
+      "provision_ref": "s42",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "42",
+      "title": "Notice relating to formatting",
+      "content": "1 The Minister may determine the format in which traffic data and the content of a telecommunication must be able to be obtained under an interception warrant or any other lawful interception authority. 2 Before making a determination under subsection (1), the Minister must consult the telecommunications industry by— a publishing, on an Internet site operated by the Ministry, a notice that— i sets out the effect of the proposed notice ( proposal ); and ii invites submissions on the proposal to be made by a specified date; and b considering the submissions (if any) on the proposal. 3 The determination may incorporate by reference all or part of any standard, specification, or requirement that is published by or on behalf of any body or person in any country, including any standard from the European Telecommunications Standards Institute. 4 A determination under this section is secondary legislation ( see Part 3 of the Legislation Act 2019 for publication requirements). 5 Subpart 1 of Part 3 and section 114 of the Legislation Act 2019 do not apply to material that is incorporated by reference under subsection (3) merely because it is incorporated."
+    },
+    {
+      "provision_ref": "s43",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "43",
+      "title": "Effect of changes to material incorporated by reference",
+      "content": "1 This section applies if— a a network operator has an interception capability that conforms with a standard, specification, or requirement that has been incorporated by reference under section 42(3) ; and b that standard, specification, or requirement is later amended or replaced. 2 If this section applies, the network operator is not under any duty to ensure the interception capability conforms to any changes to, or replacement of, the standard, specification, or requirement so long as the network operator ensures that the interception capability continues to conform to the earlier standard, specification, or requirement."
+    },
+    {
+      "provision_ref": "s44",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "44",
+      "title": "Formatting before commencement of this Act",
+      "content": "1 A public telecommunications network or a telecommunications service that immediately before the commencement of this Act complied with section 8(1) (c) of the Telecommunications (Interception Capability) Act 2004 by obtaining the call associated data and the content of telecommunications in a format that was able to be used by a surveillance agency— a is not subject to section 10(5) (a) or 24(7) (a) of this Act; and b may continue to use the format that it used immediately before the commencement of this Act for the purpose of section 10(1) (c) or 24(3) (b) (iii) of this Act. 2 In this section, call associated data has the meaning given in section 3(1) , as in force immediately before the commencement of section 49(1) of the Budapest Convention and Related Matters Legislation Amendment Act 2025."
+    },
+    {
+      "provision_ref": "s44A",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "44A",
+      "title": "Application and interpretation",
+      "content": "1 This subpart applies in relation to the relevant decisions. 2 In this subpart,— affected party , in relation to a relevant decision, means a network operator, a member of the class of network operators, or a telecommunications service provider (as the case may be) to which the decision applies decision maker , in relation to a relevant decision, means the person or persons who make the decision relevant decision means any of the following decisions: a a decision of the Minister to make a direction under section 19 : b a decision of a designated officer or the Minister under section 29 or 34 to grant, vary, or revoke an exemption: c a decision of the Minister to make a direction under section 38 : d a decision of a review panel as to recommendations under section 39 ."
+    },
+    {
+      "provision_ref": "s44B",
+      "chapter": "Part 2: Interception capability duties",
+      "section": "44B",
+      "title": "Written notice and summary of classified security information",
+      "content": "1 If a decision maker relies on classified security information in making a relevant decision, the written notice of the decision must state that— a the decision maker relied on that kind of information; and b the affected party may request a summary (a CSI summary ) of the classified security information; and c the affected party may be able to make a complaint to the Inspector-General of Intelligence and Security under section 171 of the Intelligence and Security Act 2017 in relation to any advice given to the decision maker by an intelligence and security agency. 2 The purpose of the CSI summary is to enable the affected party to have a sufficient understanding of— a the classified security information the decision maker relied on in making the decision (without that information being disclosed to the affected party); and b the reasons for the decision based on that information. 3 If the affected party requests a CSI summary,— a the decision maker and the head of the surveillance agency that holds the classified security information must agree on the contents of a summary; and b the decision maker must provide the agreed summary to the affected party within a reasonable time. 4 However, the decision maker may refuse to provide a CSI summary if the decision maker and the head of the surveillance agency are satisfied that a summary cannot be provided that is sufficient to meet its purpose without disclosing classified security information."
+    },
+    {
+      "provision_ref": "s45",
+      "chapter": "Part 3: Network security",
+      "section": "45",
+      "title": "Application of this Part",
+      "content": "This Part applies to network operators."
+    },
+    {
+      "provision_ref": "s46",
+      "chapter": "Part 3: Network security",
+      "section": "46",
+      "title": "Network operators' duty to engage in good faith",
+      "content": "1 A network operator must engage with the Director as soon as practicable after becoming aware of any network security risk that may arise if the proposed decision, course of action, or change is implemented. 2 A network operator must act honestly and in good faith when engaging with the Director in relation to any matter in this Part. 3 A network operator must provide the Director with access to any of its employees, contractors, or agents that, in the Director's opinion, are best placed to assist the Director in relation to a matter under this Part."
+    },
+    {
+      "provision_ref": "s47",
+      "chapter": "Part 3: Network security",
+      "section": "47",
+      "title": "Areas of specified security interest",
+      "content": "1 In this section and section 48 , an area of specified security interest , in relation to a network operator, means— a network operations centres: b lawful interception equipment or operations: c any part of a public telecommunications network that manages or stores— i aggregated information about a significant number of customers: ii aggregated authentication credentials of a significant number of customers: iii administrative (privileged user) authentication credentials: d any place in a public telecommunications network where data belonging to a customer or end user aggregates in large volumes, being either data in transit or stored data: e any area prescribed under subsection (2). 2 The Governor-General may, by Order in Council, on the recommendation of the Minister responsible for the Government Communications Security Bureau, make regulations— a amending or removing an area of specified security interest listed in subsection (1): b prescribing additional areas of specified security interest. 3 The Minister must not recommend the making of regulations under subsection (2) unless— a the Minister has consulted network operators registered under Part 4 ; and b the Minister is satisfied that the regulations are necessary or desirable to— i keep up to date with changes in technology; or ii address changes in the way that networks are being used that may give rise to a security risk; or iii address any significant changes in architectural approach to the design of a public telecommunications network. 4 In this section,— administrative (privileged user) authentication credentials means the authentication credentials of a privileged user authentication credentials means any information (for example, passwords or usernames) used to ascertain the identity of a user, process, or device privileged user means a person who has authorisations that enable the person to, among other things, alter, bypass, or circumvent network security protections. 5 Regulations under this section are secondary legislation ( see Part 3 of the Legislation Act 2019 for publication requirements)."
+    },
+    {
+      "provision_ref": "s48",
+      "chapter": "Part 3: Network security",
+      "section": "48",
+      "title": "Network operator must notify Director",
+      "content": "1 A network operator must notify the Director of any proposed decision, course of action, or change made by or on behalf of the network operator regarding— a the procurement or acquisition of any equipment, system, or service that falls within an area of specified security interest; or b any change— i to the architecture of any equipment, system, or service that falls within an area of specified security interest; or ii that may affect the ownership, control, oversight, or supervision of any equipment, system, or service that falls within an area of specified security interest. 2 The network operator must— a comply with subsection (1) (a) before any steps are taken, as part of the procurement or acquisition decision-making process, to approach the market (whether by request for quote, tender, or otherwise) or comply with subsection (1) (b) during the development of a business or change proposal; and b ensure any notice given to the Director in compliance with subsection (1) is given within sufficient time for the Director to consider whether to take action under section 51 ."
+    },
+    {
+      "provision_ref": "s49",
+      "chapter": "Part 3: Network security",
+      "section": "49",
+      "title": "Exemption from section 46(1) or 48",
+      "content": "1 The Director may, by written notice, exempt a network operator or a class of network operators from any of the requirements in section 46(1) or 48 if the Director is satisfied that the matter to which the exemption relates will not give rise to a network security risk. 2 The exemption may be granted for any period specified by the Director and on any terms and conditions that the Director thinks fit. 3 The Director may by written notice vary or revoke an exemption granted under this section. 4 The Director may give a notice under this section relating to a network operator directly to the network operator concerned. 5 An exemption, variation, or revocation under this section is secondary legislation ( see Part 3 of the Legislation Act 2019 for publication requirements), unless it applies only to 1 or more named network operators."
+    },
+    {
+      "provision_ref": "s50",
+      "chapter": "Part 3: Network security",
+      "section": "50",
+      "title": "Consideration of network security risk by Director or Minister",
+      "content": "1 When considering whether a network security risk or significant network security risk is raised under this Part, the Director, or if the case requires, the Minister responsible for the Government Communications Security Bureau,— a must consider the likelihood that the matter giving rise to the risk will lead to— i the compromising or degrading of the public telecommunications network; and ii the impairment of the confidentiality, availability, or integrity of telecommunications across the network; and b must consider the potential effect that an event described in paragraph (a) (i) or (ii) will have on the provision of— i central or local government services: ii services within the finance sector: iii services within the energy sector: iv services within the food sector: v communication services: vi transport services: vii health services: viii education services; and c may consider any other matter that the Director or Minister considers relevant. 2 In subsection (1) (a), the matter giving rise to the risk means— a any proposed decision, course of action, or change that, if implemented, will give rise to the network security risk or significant network security risk; or b any decision that has been implemented, binding legal arrangement, or course of action or change that has commenced that gives rise to the network security risk or significant network security risk."
+    },
+    {
+      "provision_ref": "s51",
+      "chapter": "Part 3: Network security",
+      "section": "51",
+      "title": "Process for addressing network security risks",
+      "content": "1 If the Director becomes aware of a proposed decision, course of action, or change by a network operator that, in the Director's opinion, would, if implemented, raise a network security risk other than a minimal network security risk,— a the Director must advise the network operator of the matter as soon as practicable; and b the network operator must not implement or give effect to the proposed decision, course of action, or change— i unless and to the extent that those actions are consistent with or give effect to a proposal or part of a proposal (relating to the proposed decision, course of action, or change) accepted by the Director under section 52 or a direction of the Minister under section 57 on a matter relating to the proposal; or ii unless the Director has referred a matter (arising from the proposal) to the Minister responsible for the Government Communications Security Bureau under section 54 and the Minister does not make a direction in respect of the proposal; or iii unless the Director has notified the network operator that the Director has not accepted the proposal but has decided not to refer the matter to the Minister under section 54 . 2 The Director must provide a written notice to the network operator that relates to the matter referred to in subsection (1). 3 The network operator must, as soon as practicable, respond in writing to the notification by providing the Director with a proposal to prevent or sufficiently mitigate the network security risk. 4 A notice under subsection (2) and a proposal under subsection (3) must comply with any requirements prescribed in regulations made under section 127 ."
+    },
+    {
+      "provision_ref": "s52",
+      "chapter": "Part 3: Network security",
+      "section": "52",
+      "title": "Assessment of response by network operator",
+      "content": "1 The Director must assess whether the proposal will, if implemented, prevent or sufficiently mitigate the network security risk. 2 If the Director is satisfied that the proposal or part of the proposal will, if implemented, prevent or sufficiently mitigate the network security risk, the Director must accept the proposal or that part of the proposal and advise the network operator accordingly in writing. 3 If the Director does not accept the proposal or part of the proposal, the Director must— a decide, at the same time, whether or not to refer the matter to the Minister responsible for the Government Communications Security Bureau under section 54 ; and b advise the network operator of his or her decision accordingly in writing."
+    },
+    {
+      "provision_ref": "s53",
+      "chapter": "Part 3: Network security",
+      "section": "53",
+      "title": "Network operator must implement response",
+      "content": "The network operator must implement those parts of the proposal accepted by the Director under section 52(2) (unless later modified by agreement with the Director)."
+    },
+    {
+      "provision_ref": "s54",
+      "chapter": "Part 3: Network security",
+      "section": "54",
+      "title": "Director may refer matter to Minister",
+      "content": "If the Director considers that the proposal or part of the proposal does not prevent or sufficiently mitigate a significant network security risk, the Director— a may, after complying with section 56 , refer the matter to the Minister responsible for the Government Communications Security Bureau to make a direction under section 57 ; and b must, if a referral is made, inform the network operator that it may make submissions on the matter directly to the Minister, and specify a time, which must be reasonable in the circumstances, by which those submissions must be made."
+    },
+    {
+      "provision_ref": "s55",
+      "chapter": "Part 3: Network security",
+      "section": "55",
+      "title": "Failure to comply",
+      "content": "1 This section applies if,— a despite being advised under section 51 , a network operator has entered into a binding legal arrangement, implemented a decision, or commenced a course of action or change that gives rise to a significant network security risk; or b a network operator fails to comply with a requirement of this Part or a requirement to supply information or a class of information under section 78 and has entered into a binding legal arrangement, implemented a decision, or commenced a course of action or change that gives rise to a significant network security risk. 2 If this section applies, the Director— a may, after complying with section 56 , refer the matter to the Minister responsible for the Government Communications Security Bureau to make a direction under section 57 ; and b must, if a referral is made, inform the network operator that it may make submissions on the matter directly to the Minister, and specify a time, which must be reasonable in the circumstances, by which those submissions must be made."
+    },
+    {
+      "provision_ref": "s56",
+      "chapter": "Part 3: Network security",
+      "section": "56",
+      "title": "Review by Commissioner of Intelligence Warrants",
+      "content": "1 If the Director is of the opinion that a significant network security risk exists or may arise and is intending or considering whether to refer the matter to the Minister responsible for the Government Communications Security Bureau under section 54 or 55 ,— a the Director must, before referring the matter, notify the Chief Commissioner of Intelligence Warrants ; and b on receipt of the notice, the Chief Commissioner of Intelligence Warrants must arrange for a review to be conducted in accordance with this section by a Commissioner as soon as practicable. 2 The Director must make available to the Commissioner all of the material (including any classified security information) that informed the Director's opinion. 3 The Commissioner must consider whether the significant network security risk identified by the Director exists or may arise by— a assessing the material made available to him or her; and b considering the matters that the Director was required to consider under section 50(1) (a) and (b) ; and c considering any other matter that the Director, under section 50(1) (c) , considered relevant. 4 The Commissioner must prepare a report on the Commissioner's consideration, under subsection (3), of the significant network security risk identified by the Director and— a give a copy of the report to the Director; and b give a copy of the report to the affected network operator, except those parts of the report that would reveal any classified security information. 5 The Commissioner must not, when conducting the review, seek or accept any further communications from the affected network operator or the Director (except as provided in subsection (2)). 6 Any material made available to the Commissioner under this section must be kept secure and confidential, and returned to the Director when the review is completed. 7 If the Director decides to refer the matter to the Minister, the Director must, when referring the matter, give the Minister a copy of the Commissioner's report under this section. 8 In this section and section 57 ,— Chief Commissioner of Intelligence Warrants has the meaning given to it by section 4 of the Intelligence and Security Act 2017 Commissioner means a Commissioner of Intelligence Warrants within the meaning of section 4 of the Intelligence and Security Act 2017 ."
+    },
+    {
+      "provision_ref": "s57",
+      "chapter": "Part 3: Network security",
+      "section": "57",
+      "title": "Minister may make direction",
+      "content": "1 The Minister responsible for the Government Communications Security Bureau may make a direction under this section only if the Minister— a has been referred a matter under section 54 or 55 ; and b has considered any submissions from the affected network operator; and c has considered the report of the Commissioner under section 56 ; and d has consulted the Minister for Communications and Information Technology and the Minister of Trade; and e is satisfied that exercising his or her powers under this section is necessary to prevent, sufficiently mitigate, or remove a significant network security risk. 2 Before making a direction under this section, the Minister must— a have regard to— i the nature and extent of the network security risk: ii the impact on the network operator of meeting costs associated with the direction: iii the potential consequences that the direction may have on competition and innovation in telecommunications markets: iv the anticipated benefits to New Zealand from preventing, sufficiently mitigating, or removing the network security risk: v the principle in section 8(4) : vi the potential impact of the direction on trade: vii any other matters that the Minister considers relevant; and b be satisfied that the direction is consistent with the purpose in section 7 . 3 A direction under this section— a may require a network operator to take steps, as specified by the Minister, to prevent, sufficiently mitigate, or remove the significant network security risk, and those steps may include— i requiring the network operator to cease a particular activity or to do or refrain from doing a particular activity in the future; or ii directing the network operator to make changes to, or remove, any particular system, equipment, service, component, or operation on or related to the network; and b may provide for any other relevant matter. 4 The Minister must ensure that any time by which a network operator must comply with a requirement of the direction is specified in the direction and is reasonable in the circumstances. 5 The Minister must issue the direction in writing to the affected network operator together with reasons, except those parts of the reasons that would reveal classified security information. 6 The Minister must not delegate to any person, other than another Minister, the power to make a direction under this section."
+    },
+    {
+      "provision_ref": "s57A",
+      "chapter": "Part 3: Network security",
+      "section": "57A",
+      "title": "Provisions that apply when classified security information used or provided for decisions",
+      "content": "Subpart 7 of Part 2 applies, with all necessary modifications, in relation to decisions to make a direction under section 57 in the same way as it applies in relation to relevant decisions (within the meaning of that subpart)."
+    },
+    {
+      "provision_ref": "s58",
+      "chapter": "Part 3: Network security",
+      "section": "58",
+      "title": "Guidelines",
+      "content": "1 The Director may issue guidelines on any requirements under this Part that apply to network operators. 2 Any guidelines issued under this section are not binding. 3 However, in any proceeding relating to this Act, evidence of a network operator’s compliance with any guidelines issued under this section is to be treated as evidence of compliance with the applicable requirements."
+    },
+    {
+      "provision_ref": "s59",
+      "chapter": "Part 3: Network security",
+      "section": "59",
+      "title": "Director must comply with regulations made under section 126 relating to time frames",
+      "content": "The Director must comply with any regulations made under section 126 ."
+    },
+    {
+      "provision_ref": "s60",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "60",
+      "title": "Network operators must register",
+      "content": "1 A person that is, on the commencement of this section, a network operator must be registered on the register within 3 months after that commencement. 2 A person that, after the commencement of this section, becomes a network operator must be registered on the register within 3 months after the person becomes a network operator."
+    },
+    {
+      "provision_ref": "s61",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "61",
+      "title": "Application for registration",
+      "content": "An application for registration must— a be made to the Registrar; and b contain the information specified in section 62 ; and c be accompanied by a certificate signed by the chief executive of the network operator confirming that the information contained in the application is true and correct; and d otherwise be made in the form or manner required by the Registrar."
+    },
+    {
+      "provision_ref": "s62",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "62",
+      "title": "Registration information",
+      "content": "1 The information referred to in section 61(b) is as follows (to the extent that the information is applicable): a the name of the network operator: b the name and contact details of a suitable employee of the network operator who will be responsible for dealing with issues raised by a surveillance agency relating to interception capability or an interception warrant or any other lawful interception authority: c the name and contact details of a suitable employee of the network operator who will be responsible for dealing with issues raised by the Director relating to network security: d the total number of the network operator's customers: e in the case of a network operator that offers retail services, an estimate of the total number of end-users across all telecommunications services: f the total number of connections for wholesale network services: g the geographical coverage of the network operator's telecommunications services and public telecommunications networks (for example, by reference to the name of a region or to national coverage): h the particulars of any outsourcing arrangement (including the date of the arrangement, the names of the parties to it, and its general nature): i the types of telecommunications services provided by the network operator (for example, mobile, email, or Voice over Internet Protocol services): j an address for service of notices under this Act: k whether the network operator is subject to— i the duty to comply with sections 9 and 10 ; or ii the duty to be intercept ready; or iii the duty to be intercept accessible. 2 The information specified in this section must be prepared as at the date of the application (or, in the case of an annual update, as at the date of that update)."
+    },
+    {
+      "provision_ref": "s63",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "63",
+      "title": "Register of network operators",
+      "content": "1 The Commissioner of Police must establish a register of network operators (the register ). 2 The Registrar must maintain the register."
+    },
+    {
+      "provision_ref": "s64",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "64",
+      "title": "Purpose of register",
+      "content": "The purpose of the register is to assist any surveillance agency in the exercise or performance of its powers, functions, or duties under this Act."
+    },
+    {
+      "provision_ref": "s65",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "65",
+      "title": "Contents of register",
+      "content": "The register must contain— a the information referred to in section 62 in relation to each network operator: b the information provided to the Registrar under section 23 (which relates to infrastructure-level services)."
+    },
+    {
+      "provision_ref": "s66",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "66",
+      "title": "Operation of and access to register",
+      "content": "1 The register may be kept as an electronic register or in any other manner that the Registrar thinks fit. 2 The register must be available for access and searching by surveillance agencies (including by any employee or other person acting on behalf of a surveillance agency) at all times unless suspended under subsection (4). 3 The register is not available for access or searching by any person other than a designated officer or a surveillance agency (or any employee or other person acting on its behalf). 4 The Registrar may refuse access to the register or suspend its operation, in whole or in part, if the Registrar considers that it is not practical to provide access to the register."
+    },
+    {
+      "provision_ref": "s67",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "67",
+      "title": "Registrar must keep register secure",
+      "content": "1 The Registrar must take reasonable steps to ensure that the register is not available for access or searching by any person other than a designated officer or a surveillance agency (or any employee or other person acting on its behalf). 2 This section and section 66 do not limit the Official Information Act 1982."
+    },
+    {
+      "provision_ref": "s68",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "68",
+      "title": "Network operators must notify Registrar of key changes",
+      "content": "1 A network operator must give to the Registrar written notice of any relevant change no later than 20 working days before the change takes effect. 2 However, if it is not reasonably practicable to comply with subsection (1), the network operator must give to the Registrar written notice of the relevant change as soon as is reasonably practicable. 3 A network operator must give to the Registrar written notice of a threshold change no later than 10 working days after the date on which the change was identified, or ought reasonably to have been identified, by the operator. 4 In this section,— relevant change means a change to any of the following: a the name of the network operator: b the name and contact details of a suitable employee of the network operator who will be responsible for dealing with issues raised by a surveillance agency relating to interception capability or an interception warrant or any other lawful interception authority: c the name and contact details of a suitable employee of the network operator who will be responsible for dealing with issues raised by the Director relating to network security: d the geographical coverage of the network operator's telecommunications services and public telecommunications networks: e the outsourcing arrangements of the network operator: f the types of telecommunications services provided by the network operator threshold change means a change in circumstances that has the effect of changing the interception capability duties that apply to the network operator under this Act."
+    },
+    {
+      "provision_ref": "s69",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "69",
+      "title": "Annual update",
+      "content": "1 A network operator must give to the Registrar each year in November an annual update of information on the register relating to that operator. 2 The annual update must— a specify any changes to the information referred to in section 62 that have occurred since the network operator last gave information to the Registrar (whether in a notice under section 68 , the previous annual update, or an application under section 61 ); and b confirm that, apart from the changes under paragraph (a), all other information referred to in section 62 that is currently held by the Registrar remains correct; and c be in the form (if any) required by the Registrar; and d be accompanied by a certificate signed by the chief executive of the network operator confirming that the information contained in the annual update is true and correct. 3 An annual update does not need to be provided in the year during which this section comes into force."
+    },
+    {
+      "provision_ref": "s70",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "70",
+      "title": "Registrar may deregister person",
+      "content": "The Registrar may remove a person from the register if the Registrar is satisfied that the person has— a ceased to exist; or b ceased to have the obligations of a network operator under this Act; or c otherwise ceased to be a network operator."
+    },
+    {
+      "provision_ref": "s71",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "71",
+      "title": "Registrar may amend register",
+      "content": "The Registrar may amend the register if— a a notice under section 68 or an annual update contains information that is different from the information entered on the register: b a network operator informs the Registrar of information that is different from the information entered on the register: c the Registrar is satisfied at any time that the register contains an error or a mistake or omits information given to the Registrar."
+    },
+    {
+      "provision_ref": "s72",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "72",
+      "title": "Appointment of designated officers",
+      "content": "1 The Commissioner of Police must, by notice in the Gazette , appoint 1 or more suitable persons as designated officers for the purposes of this Act. 2 A copy of the notice under subsection (1) must be published on an Internet site maintained by or on behalf of the New Zealand Police."
+    },
+    {
+      "provision_ref": "s73",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "73",
+      "title": "Appointment of Registrar",
+      "content": "1 The Commissioner of Police must, by notice in the Gazette , appoint one of the designated officers as the Registrar of network operators. 2 A copy of the notice under subsection (1) must be published on an Internet site maintained by or on behalf of the New Zealand Police."
+    },
+    {
+      "provision_ref": "s74",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "74",
+      "title": "Power of designated officer to delegate",
+      "content": "1 The Registrar or any other designated officer may delegate to any person, either generally or particularly, any of the Registrar’s or other designated officer's functions, duties, and powers except the power of delegation. 2 A delegation— a must be in writing; and b may be made subject to any restrictions and conditions the Registrar or designated officer thinks fit; and c is revocable at any time, in writing; and d does not prevent the performance or exercise of a function, duty, or power by the Registrar or designated officer. 3 A person to whom any functions, duties, or powers are delegated may perform and exercise them in the same manner and with the same effect as if they had been conferred directly by this Act and not by delegation. 4 A person who appears to act under a delegation is presumed to be acting in accordance with its terms in the absence of evidence to the contrary."
+    },
+    {
+      "provision_ref": "s75",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "75",
+      "title": "Network operator must nominate employee to apply for clearance",
+      "content": "1 A network operator must, within 10 working days after being required to do so under subsection (2), (3), or (4),— a nominate a suitable employee to apply for a secret-level government-sponsored security clearance (a clearance ); and b notify the employee of the nomination; and c give written notice of the name and contact details of that employee to the Registrar. 2 A designated officer may, by written notice served on a network operator, require the operator to comply with subsection (1) unless section 13 applies. 3 If a network operator is notified that an application under section 76 has been declined or that an application has not been made within the time referred to in section 76(2) , the network operator must comply again with subsection (1) (to nominate another employee). 4 If a network operator is notified that its employee's clearance has expired or been revoked for any reason, the network operator must comply again with subsection (1) (to re-nominate the same employee (unless his or her clearance was revoked) or to nominate another employee)."
+    },
+    {
+      "provision_ref": "s76",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "76",
+      "title": "Nominated person must apply",
+      "content": "1 A designated officer must, by written notice served on the employee nominated under section 75 , specify the manner in which the employee must apply for a clearance. 2 The employee must, within 10 working days after being notified under subsection (1), apply for the clearance."
+    },
+    {
+      "provision_ref": "s77",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "77",
+      "title": "Designated officer may require information in order to assist surveillance agency",
+      "content": "1 If a designated officer considers it necessary or desirable for any specified purpose, the designated officer may, by written notice served on any network operator, require the operator— a to supply to the designated officer or a surveillance agency any information or class of information specified in the notice; or b to produce to the designated officer or a surveillance agency, or to a person specified in the notice acting on the agency's behalf, any document or class of documents specified in the notice; or c if necessary, to reproduce, or assist in reproducing, in usable form, information recorded or stored in any document or class of documents specified in the notice. 2 In subsection (1), specified purpose means the purpose of assisting any surveillance agency to do 1 or more of the following: a enforce compliance with the duties under this Act relating to interception capability: b execute an interception warrant or any other lawful interception authority: c otherwise perform or exercise any of its functions, powers, or duties under this Act in relation to interception capability or an interception warrant or any other lawful interception authority. 3 A network operator must comply with the notice in the manner specified in the notice. 4 A designated officer may exercise the power under subsection (1) at the request of a surveillance agency (in which case, the officer must promptly supply information or documents obtained under subsection (1) to the surveillance agency)."
+    },
+    {
+      "provision_ref": "s78",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "78",
+      "title": "Director of Government Communications Security Bureau may require information",
+      "content": "1 If the Director considers it necessary or desirable for any specified purpose, the Director may, by written notice served on any network operator, require the operator— a to supply to the Director any information or class of information specified in the notice; or b to produce to the Director, or to a person specified in the notice acting on his or her behalf, any document or class of documents specified in the notice; or c if necessary, to reproduce, or assist in reproducing, in usable form, information recorded or stored in any document or class of documents specified in the notice. 2 In subsection (1), specified purpose means the purpose of— a enforcing compliance with the duties under this Act relating to network security; or b otherwise performing or exercising any of the Director's functions, powers, or duties under this Act in relation to network security. 3 A network operator must comply with the notice in the manner specified in the notice."
+    },
+    {
+      "provision_ref": "s79",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "79",
+      "title": "Time for compliance",
+      "content": "A network operator must comply with a notice under section 77 or 78 as soon as practicable after receiving the notice, but in any event not later than— a 20 working days after the date of the notice; or b a later time that is specified in the notice."
+    },
+    {
+      "provision_ref": "s80",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "80",
+      "title": "Network operator must comply despite any other enactment or any breach of confidence, etc",
+      "content": "1 A network operator must comply with a notice under section 77 or 78 despite anything to the contrary in any deed or contract or any other enactment. 2 A network operator must comply with a notice under section 77 or 78 even if compliance involves— a the disclosure of commercially sensitive information; or b a breach of an obligation of confidence. 3 However, every person has the same privileges in relation to providing information and documents under section 77 or 78 as witnesses have in proceedings before a court."
+    },
+    {
+      "provision_ref": "s81",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "81",
+      "title": "Miscellaneous provisions",
+      "content": "1 Information supplied in response to a notice under section 77(1) (a) or 78(1) (a) must be— a given in writing; and b accompanied by a certificate that confirms that, to the best of the network operator's knowledge, the information supplied complies with requirements of the notice. 2 If a document is produced in response to a notice under section 77 or 78 , a surveillance agency referred to in section 77(4) or the Director (as the case may be), or the person to whom the document is produced, may— a inspect and make records of that document; and b take copies of the document or extracts from the document. 3 Nothing in section 77 or 78 permits a designated officer or the Director to require a network operator to supply, produce, reproduce, or assist in reproducing any information or document that could have been obtained, or should have been sought, under an interception warrant or other lawful interception authority."
+    },
+    {
+      "provision_ref": "s82",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "82",
+      "title": "Designated officer may require compliance testing",
+      "content": "1 If a designated officer considers it necessary or desirable for the purposes of assisting a surveillance agency to perform or exercise any of its functions, powers, or duties under Part 2 , the officer may, by written notice served on a network operator, require the operator to test its equipment and procedures to— a ensure that the equipment and procedures comply with the duties that apply to the operator by or under Part 2 ; and b identify any deficiencies in the equipment and procedures in terms of that compliance. 2 The notice may specify various times for completing the testing in stages and a final date for completing the testing. 3 Each of those times must be reasonable in the circumstances and must be set after having regard to any submissions made under section 83(1) (b) . 4 The network operator must comply with the notice within the time or times and in the manner specified in the notice."
+    },
+    {
+      "provision_ref": "s83",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "83",
+      "title": "Process for consulting on times",
+      "content": "1 A designated officer must, before serving a notice under section 82 ,— a serve on the network operator written notice stating— i that the officer may exercise a power under section 82 ; and ii the telecommunications service to which the notice under section 82 may relate; and iii the reasons why the officer is considering exercising that power; and b give to the network operator an opportunity to make written submissions relating to the time or times within which the operator must carry out the testing under a notice under section 82 . 2 A designated officer must serve the notice under subsection (1) at least 10 working days before it serves a notice under section 82 ."
+    },
+    {
+      "provision_ref": "s84",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "84",
+      "title": "Designated officer may require certification as to compliance",
+      "content": "1 A designated officer may, by written notice served on a network operator, require a chief executive of the operator to certify that, after due inquiry, the chief executive is satisfied as to 1 or more of the following: a that adequate resources have been allocated by the operator to secure compliance with its duties under Part 2 : b that the operator maintains and operates interception capability in compliance with this Act: c that the operator is otherwise complying with Part 2 . 2 If a chief executive is unable to give the certification because the chief executive is not satisfied as referred to in subsection (1), the chief executive must, instead of giving the certification, give written notice to the designated officer of the reasons for being unable to give the certification (including details of any failure to comply with this Act and whether the operator has applied for, or intends to apply for, an exemption under subpart 4 of Part 2 ). 3 The certification (or notice under subsection (2)) must be given within the time and in the manner specified in the notice under subsection (1). 4 The time specified in the notice under subsection (1) must be reasonable in the circumstances."
+    },
+    {
+      "provision_ref": "s85",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "85",
+      "title": "Due inquiry",
+      "content": "1 A chief executive who is required to make due inquiry about a matter under section 84 does not fail to do so if— a he or she receives information or advice about the matter from another person who he or she believes on reasonable grounds is reliable and competent; and b the information or advice received— i is of the same kind and standard as that which could reasonably be expected to be supplied in the ordinary course of management of businesses of the same kind to persons in the same kind of position; and ii does not state or indicate that further information, advice, or investigation is or may be required; and c he or she has no reason to believe that the information or advice is or may be incorrect. 2 Nothing in subsection (1) limits the ways in which a chief executive may make due inquiry about a matter."
+    },
+    {
+      "provision_ref": "s86",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "86",
+      "title": "Designated officer may give certificate to surveillance agency",
+      "content": "A designated officer may give any information obtained under this subpart to a surveillance agency."
+    },
+    {
+      "provision_ref": "s87",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "87",
+      "title": "Interpretation",
+      "content": "In this subpart,— a a non-compliance with this Act is minor if it consists of a failure to comply with any of sections 23 , 28 , 48 , 51(3) , 60 , 61 , 68 , 69 , 75 , 76(2) , 77 to 81 , 82(4) , and 84 ; and b a non-compliance with this Act is serious if it consists of a failure to comply with any of sections 9 , 10 , 11 , 12 , 13 , 15 , 24 , 26 , 53 , 57 , and 88(4) ."
+    },
+    {
+      "provision_ref": "s88",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "88",
+      "title": "Breach notice may be issued for minor non-compliance",
+      "content": "1 This section applies if a surveillance agency considers on reasonable grounds that— a a person ( A ) has not complied with any of the duties under this Act; and b the non-compliance is minor. 2 The surveillance agency may serve a notice on A under this section (a breach notice ) that requires A, within the time and in the manner specified in the notice, to comply with the duties referred to in subsection (1) (a). 3 The breach notice must identify the duties that have not been complied with. 4 A must comply with the breach notice within the time and in the manner specified in the notice (and a failure to so comply is serious). 5 The time specified in the breach notice must be reasonable in the circumstances."
+    },
+    {
+      "provision_ref": "s89",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "89",
+      "title": "Breach notice may request consent to enter and inspect in connection with duties under Part 2",
+      "content": "1 This section applies if a breach notice relates to a failure to comply with a duty under Part 2 . 2 A breach notice may request a network operator to consent to the surveillance agency entering a relevant place for the purpose of gathering evidence relating to the failure referred to in subsection (1) by— a inspecting and making records of information, documents, or equipment that is related to the network operator's duties under Part 2 ; and b taking copies of those documents or extracts from those documents. 3 If a breach notice contains a request under subsection (2), the notice must also— a advise the network operator of the reason for the request; and b advise the network operator that the evidence that is gathered may be admissible in proceedings relating to the failure referred to in subsection (1); and c advise the network operator that it may either consent to the request or refuse to consent to the request. 4 If the network operator consents to the request, the surveillance agency (including any employee or other person acting on its behalf) may carry out an entry, an inspection, and any other action referred to in subsection (2) in accordance with the terms of the consent. 5 In this section, relevant place means a place— a that is owned, occupied, or controlled by the network operator; and b that the surveillance agency believes on reasonable grounds contains information, documents, or equipment that is related to the network operator's duties under Part 2 ."
+    },
+    {
+      "provision_ref": "s90",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "90",
+      "title": "Enforcement notice may be issued for serious non-compliance",
+      "content": "1 This section applies if a surveillance agency considers on reasonable grounds that— a a person has a duty under this Act; and b the person has not complied with that duty; and c the non-compliance is serious. 2 The surveillance agency may serve a notice on a person under this section (an enforcement notice ) to inform that person that the surveillance agency— a is satisfied that the person has not complied with the duties specified in the notice and that the non-compliance is serious; and b may make an application to the High Court under this subpart on or after a specified date."
+    },
+    {
+      "provision_ref": "s91",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "91",
+      "title": "",
+      "content": "1 A surveillance agency may apply to the High Court for an order under section 92 or 97 (or both) only if— a it has given an enforcement notice; and b the application is made on or after the date specified under section 90(2) (b) . 2 However, a surveillance agency may apply to the High Court for an order under section 97 in relation to a contravention of a compliance order without complying with subsection (1). 3 No person other than a surveillance agency (or an employee or other person acting on its behalf) may make an application for an order under section 92 or 97 ."
+    },
+    {
+      "provision_ref": "s92",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "92",
+      "title": "",
+      "content": "1 If a person has not complied with any of the duties under this Act and the non-compliance is serious, the High Court may, for either or both of the purposes specified in subsection (2), make a compliance order requiring that person— a to do any specified thing; or b to cease any specified activity. 2 The purposes are— a to remedy, mitigate, or avoid any adverse effects arising or likely to arise from any non-compliance with the duties referred to in subsection (1): b to prevent any further non-compliance with those duties. 3 A compliance order may be made on the terms and conditions that the High Court thinks fit, including the provision of security or the entry into a bond for performance."
+    },
+    {
+      "provision_ref": "s93",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "93",
+      "title": "",
+      "content": "Before deciding an application for a compliance order, the High Court must— a hear the applicant; and b hear any person against whom the order is sought who wishes to be heard."
+    },
+    {
+      "provision_ref": "s94",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "94",
+      "title": "",
+      "content": "After considering an application for a compliance order, the High Court may— a make a compliance order under section 92 ; or b refuse the application."
+    },
+    {
+      "provision_ref": "s95",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "95",
+      "title": "",
+      "content": "1 A party to a proceeding relating to an application for a compliance order or any other person prejudicially affected may, with the leave of the Court of Appeal, appeal to that court if the High Court— a has made or refused to make a compliance order; or b has otherwise finally determined or has dismissed the proceedings. 2 On an appeal to the Court of Appeal under this section, the Court of Appeal has the same power to adjudicate on the proceedings as the High Court had."
+    },
+    {
+      "provision_ref": "s96",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "96",
+      "title": "",
+      "content": "Except where the Court of Appeal otherwise directs,— a the operation of a compliance order is not suspended by an appeal under section 95 ; and b every compliance order may be enforced in the same manner and in all respects as if that appeal were not pending."
+    },
+    {
+      "provision_ref": "s97",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "97",
+      "title": "",
+      "content": "1 This section applies if the High Court is satisfied, on the application of a surveillance agency, that a person— a has not complied with any of the duties under this Act and that the non-compliance is serious; or b has acted in contravention of a compliance order. 2 The court may order the person to pay to the Crown any pecuniary penalty that the court determines to be appropriate. 3 Proceedings under this section may be commenced within 3 years after the matter giving rise to the contravention was discovered or ought reasonably to have been discovered."
+    },
+    {
+      "provision_ref": "s98",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "98",
+      "title": "Amount of pecuniary penalty",
+      "content": "1 The amount of any pecuniary penalty under section 97 must not exceed $500,000. 2 In the case of a continuing contravention of a compliance order, the High Court may, in addition to any pecuniary penalty ordered to be paid under section 97 , impose a further penalty of $50,000 for each day or part of a day during which the contravention continues."
+    },
+    {
+      "provision_ref": "s99",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "99",
+      "title": "Considerations for court in determining pecuniary penalty",
+      "content": "In determining an appropriate pecuniary penalty, the High Court must have regard to all relevant matters, including— a the purposes of this Act; and b the nature and extent of the contravention; and c the nature and extent of any loss or damage suffered by any person, or gains made or losses avoided by the person in contravention, because of the contravention; and d the circumstances in which the contravention took place; and e whether or not the person in contravention has previously been found by the court in proceedings under this Act, or any other enactment, to have engaged in any similar conduct."
+    },
+    {
+      "provision_ref": "s100",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "100",
+      "title": "Rules of civil procedure and civil standard of proof apply",
+      "content": "1 The proceedings under this subpart are civil proceedings, and the usual rules of court and rules of evidence and procedure for civil proceedings apply (including the standard of proof). 2 This section is subject to subpart 8 ."
+    },
+    {
+      "provision_ref": "s101",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "101",
+      "title": "Proceedings involving classified security information",
+      "content": "1 This section applies to any civil proceedings (including public law and judicial review proceedings) in a court relating to the administration or enforcement of this Act. 2 If the Crown proposes to present classified security information in proceedings, the Attorney-General must— a make an application to an authorised court under section 32 of the 2022 Act for a security information order to protect the confidentiality of the information to be given as evidence in the proceedings; and b submit to the court the certification described in section 3A(1) (b) . 3 If the classified security information is also national security information, the Crown may submit with the application and certification referred to in subsection (2) an NSI certificate under section 41 of the 2022 Act and seek a security information order as set out in section 36(3) of that Act (under which the types of orders available to the court are limited). 4 In this section,— 2022 Act means the Security Information in Proceedings Act 2022 authorised court , national security information , NSI certificate , and security information order have the meanings given to them by section 4 of the 2022 Act."
+    },
+    {
+      "provision_ref": "s102",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "102",
+      "title": "",
+      "content": "102 Classified security information and other terms defined Section 102 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s103",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "103",
+      "title": "Obligation to provide court with access to classified security information",
+      "content": "103 Obligation to provide court with access to classified security information Section 103 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s104",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "104",
+      "title": "Court orders",
+      "content": "104 Court orders Section 104 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s105",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "105",
+      "title": "Appointment of special advocate",
+      "content": "105 Appointment of special advocate Section 105 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s106",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "106",
+      "title": "Nomination of person for appointment",
+      "content": "106 Nomination of person for appointment Section 106 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s107",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "107",
+      "title": "Role of special advocates",
+      "content": "107 Role of special advocates Section 107 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s108",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "108",
+      "title": "Court may provide access to classified security information to special advocate",
+      "content": "108 Court may provide access to classified security information to special advocate Section 108 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s109",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "109",
+      "title": "Communication between special advocate and other persons",
+      "content": "109 Communication between special advocate and other persons Section 109 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s110",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "110",
+      "title": "Protection of special advocates from liability",
+      "content": "110 Protection of special advocates from liability Section 110 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s111",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "111",
+      "title": "Other matters relating to procedure in proceedings involving classified security information",
+      "content": "111 Other matters relating to procedure in proceedings involving classified security information Section 111 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s112",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "112",
+      "title": "Nothing in this subpart limits other rules of law that authorise or require withholding of document, etc",
+      "content": "112 Nothing in this subpart limits other rules of law that authorise or require withholding of document, etc Section 112 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s113",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "113",
+      "title": "Ancillary general practices and procedures to protect classified security information",
+      "content": "113 Ancillary general practices and procedures to protect classified security information Section 113 : repealed , on 28 November 2023 , by section 58 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 (2022 No 72)."
+    },
+    {
+      "provision_ref": "s114",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "114",
+      "title": "",
+      "content": "The costs of developing, installing, and maintaining an interception capability on a public telecommunications network or a telecommunications service must be paid for by the network operator concerned."
+    },
+    {
+      "provision_ref": "s115",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "115",
+      "title": "",
+      "content": "1 A surveillance agency must pay for the actual and reasonable costs incurred by a network operator or a service provider in providing assistance to the agency under section 24 . 2 A surveillance agency must pay the costs referred to in subsection (1) by the date specified for payment, whether in an invoice or other appropriate document given to the agency by a network operator or a service provider, being a date not less than 1 month after the date of the invoice or other appropriate document. 3 This section— a does not apply to a network operator that is complying with duties only under section 11 ; and b is subject to section 116 ."
+    },
+    {
+      "provision_ref": "s116",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "116",
+      "title": "Surveillance agency not required to pay costs",
+      "content": "1 This section applies if a surveillance agency believes on reasonable grounds that— a a network operator has not complied with any of the duties under this Act; and b the non-compliance has— i materially increased the costs incurred by the agency in the execution of an interception warrant or authority; or ii materially increased the time that would otherwise be required to execute an interception warrant or authority; or iii otherwise materially prejudiced the agency in executing an interception warrant or authority. 2 The surveillance agency is not required to pay the costs referred to in section 115 that are incurred by the network operator in providing assistance to the agency under section 24 in relation to the execution of the interception warrant or authority. 3 In this section, interception warrant or authority means an interception warrant or other lawful interception authority."
+    },
+    {
+      "provision_ref": "s117",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "117",
+      "title": "",
+      "content": "1 This section applies to any dispute between a surveillance agency and a network operator or a service provider about the reasonableness of the costs under section 115 that are incurred, or are claimed to have been incurred, in the performance of the duty under section 24 . 2 If a dispute to which this section applies is unable to be resolved by agreement between the parties, the dispute must be referred to— a mediation; or b if the parties are unable to resolve the dispute at mediation, arbitration. 3 If a dispute is referred to arbitration under subsection (2) (b), the provisions of the Arbitration Act 1996 apply to that dispute."
+    },
+    {
+      "provision_ref": "s118",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "118",
+      "title": "",
+      "content": "1 This section applies to— a every network operator; and b every service provider; and c every surveillance agency and the Director; and d the Registrar and every other designated officer; and e every person employed or engaged by a person referred to in paragraphs (a) to (d). 2 No person to whom this section applies is liable for an act done or omitted to be done in good faith— a in the performance or intended performance of a duty imposed by or under this Act; or b in the exercise or intended exercise of a function or power conferred by or under this Act. 3 This section does not apply in relation to compliance with a direction given under section 57 . 4 Nothing in this section limits any immunity under any other enactment."
+    },
+    {
+      "provision_ref": "s119",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "119",
+      "title": "Notices",
+      "content": "1 A notice served for the purposes of this Part must— a be in writing; and b be signed by a designated officer, the Director, or by any person purporting to act with the authority of a surveillance agency; and c be served in accordance with section 120 . 2 All documents purporting to be signed by a designated officer, the Director, or by or on behalf of a surveillance agency must, in all courts and in all proceedings under this Act, be treated as having been so signed with due authority unless the contrary is proved."
+    },
+    {
+      "provision_ref": "s120",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "120",
+      "title": "Service of notices",
+      "content": "1 Any notice required or authorised to be served on any person for the purposes of this Part may— a be served on a company, within the meaning of the Companies Act 1993 , in a manner provided for in section 388 of that Act: b be served on an overseas company in a manner provided for in section 390 of the Companies Act 1993 : c be served on any other body corporate in a manner in which it could be served if the body corporate were a company within the meaning of the Companies Act 1993 : d be served on an individual— i by delivering it personally or by an agent (such as a courier) to the person; or ii by sending it by post addressed to the person at the person's usual or last known place of residence or business; or iii by sending it by fax or email to the person's fax number or email address provided by the person for the purpose; or iv in any other manner that a High Court Judge directs. 2 Section 392 of the Companies Act 1993 applies for the purposes of subsection (1) (a) to (c). 3 In the absence of proof to the contrary, a notice, document, or notification sent to a person in accordance with— a subsection (1) (d) (ii) must be treated as having been served on the person when it would have been delivered in the ordinary course of post, and, in proving the delivery, it is sufficient to prove that the letter was properly addressed and posted: b subsection (1) (d) (iii) must be treated as having been served on the person on the second working day after the date on which it is sent. 4 If a person is absent from New Zealand, a notice served on the person's agent in New Zealand in accordance with subsection (1) must be treated as having been served on the person."
+    },
+    {
+      "provision_ref": "s121",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "121",
+      "title": "",
+      "content": "This Act does not limit any power that a surveillance agency or any other person has under any other enactment."
+    },
+    {
+      "provision_ref": "s122",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "122",
+      "title": "Repeal",
+      "content": "The Telecommunications (Interception Capability) Act 2004 (2004 No 19) is repealed."
+    },
+    {
+      "provision_ref": "s123",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "123",
+      "title": "Consequential amendments",
+      "content": "Amend the enactments specified in Schedule 1 as set out in that schedule."
+    },
+    {
+      "provision_ref": "s124",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "124",
+      "title": "Savings provision for exemptions",
+      "content": "1 An exemption granted under section 11 of the Telecommunications (Interception Capability) Act 2004 that is in force immediately before the commencement of this section— a continues in force on the same terms and conditions (including as to expiry) as if granted under section 29 of this Act; and b may be amended or revoked under that section. 2 For the purposes of subsection (1), an exemption from the requirements of a provision of the Telecommunications (Interception Capability) Act 2004 (the 2004 Act provision ) must be treated as being an exemption from the requirements of a provision of this Act that, with or without modification, replaces, or corresponds to, the 2004 Act provision."
+    },
+    {
+      "provision_ref": "s125",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "125",
+      "title": "Transitional provision relating to network operators",
+      "content": "If a network operator has, at the date of first registration, less than 4 000 customers,— a section 13(2) applies to the network operator, as long as— i the network operator keeps a record of the number of customers it has each month in accordance with section 13(6) ; and ii the network operator maintains, from the date of first registration, an average of less than 4 000 customers over each 6-month period; and b section 13(3) and (4) applies to the network operator accordingly."
+    },
+    {
+      "provision_ref": "s126",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "126",
+      "title": "Regulations relating to time frames that apply to Director under Part 3",
+      "content": "1 The Governor-General may, by Order in Council, on the recommendation of the Minister responsible for the Government Communications Security Bureau, make regulations— a prescribing, in relation to any decision that the Director must make or steps that the Director must take for the purpose of exercising a function or power under Part 3 , the time by which that decision must be made or those steps must be taken: b allowing the Director to extend a time prescribed under paragraph (a) for a reasonable period after having regard to the circumstances and being satisfied that any criteria prescribed under paragraph (c) apply: c prescribing criteria relating to an extension referred to in paragraph (b): d providing for any other requirements that apply in relation to an extension referred to in paragraph (b). 2 The Minister responsible for the Government Communications Security Bureau must consult the Minister before recommending the making of regulations under subsection (1). 3 Regulations under this section are secondary legislation ( see Part 3 of the Legislation Act 2019 for publication requirements)."
+    },
+    {
+      "provision_ref": "s127",
+      "chapter": "Part 4: Registration, enforcement, and miscellaneous provisions",
+      "section": "127",
+      "title": "Regulations",
+      "content": "1 The Governor-General may, by Order in Council, make regulations providing for any matters contemplated by this Act, necessary for its administration, or necessary for giving it full effect. 2 Regulations under this section are secondary legislation ( see Part 3 of the Legislation Act 2019 for publication requirements)."
+    },
+    {
+      "provision_ref": "sch1AA-cl1",
+      "chapter": "Schedule 1AA: Transitional, savings, and related provisions",
+      "section": "1",
+      "title": "Interpretation",
+      "content": "In this Part, unless the context otherwise requires,— 2022 Act means sections 46 to 61 of the Security Information in Proceedings (Repeals and Amendments) Act 2022 commencement date means the date on which the 2022 Act comes into force relevant decision means one of the following decisions: a a decision of the Minister to make a direction under section 19 : b a decision of a designated officer or the Minister under section 29 or 34 to grant, vary, or revoke an exemption: c a decision of the Minister to make a direction under section 38 : d a decision of a review panel as to recommendations under section 39 : e a decision of the Minister to make a direction under section 57 section 101 proceedings means proceedings to which section 101 applies."
+    },
+    {
+      "provision_ref": "sch1AA-cl2",
+      "chapter": "Schedule 1AA: Transitional, savings, and related provisions",
+      "section": "2",
+      "title": "Administrative decisions",
+      "content": "The amendments made to this Act by the 2022 Act apply only in relation to any relevant decision made on or after the commencement date."
+    },
+    {
+      "provision_ref": "sch1AA-cl3",
+      "chapter": "Schedule 1AA: Transitional, savings, and related provisions",
+      "section": "3",
+      "title": "Proceedings involving classified security information",
+      "content": "1 The amendments made to this Act by the 2022 Act (except for this clause) apply only to section 101 proceedings commenced on or after the commencement date. 2 To avoid doubt, subclause (1) applies to section 101 proceedings that commence on or after the commencement date, but that relate to a relevant decision that was made before, on, or after the commencement date. 3 Section 101 proceedings commenced before the commencement date, and not finally determined before the commencement date (including any rehearing, retrial, or appeal), continue as if the amendments made to this Act by the 2022 Act had not been enacted."
+    },
+    {
+      "provision_ref": "sch1AA-cl4",
+      "chapter": "Schedule 1AA: Transitional, savings, and related provisions",
+      "section": "4",
+      "title": "Duty to assist",
+      "content": "1 Section 24 , as amended by the amendment Act, applies in relation to the execution of a surveillance device warrant issued under the Search and Surveillance Act 2012 only if the warrant is issued after section 55(3) (g) of that Act (as inserted by the amendment Act) commences. 2 In this clause, amendment Act means the Budapest Convention and Related Matters Legislation Amendment Act 2025 ."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "annual update",
+      "definition": "annual update means an update under section 69",
+      "source_provision": "s3"
+    },
+    {
+      "term": "applicant",
+      "definition": "applicant means a person that applies for registration under section 61",
+      "source_provision": "s3"
+    },
+    {
+      "term": "authorised person",
+      "definition": "authorised person means any person authorised to execute or assist in the execution of an interception warrant or other lawful interception authority",
+      "source_provision": "s3"
+    },
+    {
+      "term": "chief executive",
+      "definition": "chief executive means a person occupying the position of chief executive, by whatever name called, or the person who performs substantially the same function",
+      "source_provision": "s3"
+    },
+    {
+      "term": "classified security information",
+      "definition": "classified security information has the meaning given by section 3A",
+      "source_provision": "s3"
+    },
+    {
+      "term": "compliance order",
+      "definition": "compliance order means an order made by the High Court under section 92",
+      "source_provision": "s3"
+    },
+    {
+      "term": "customer",
+      "definition": "customer means a person who receives telecommunications services from, and has an account or billing relationship with, a network operator",
+      "source_provision": "s3"
+    },
+    {
+      "term": "designated officer",
+      "definition": "designated officer means a person appointed under section 72",
+      "source_provision": "s3"
+    },
+    {
+      "term": "Director",
+      "definition": "Director means the Director-General of the Government Communications Security Bureau",
+      "source_provision": "s3"
+    },
+    {
+      "term": "documents",
+      "definition": "documents , in subpart 4 of Part 4 , means documents (within the meaning of section 4(1) of the Evidence Act 2006 ) in the possession or under the control of the network operator",
+      "source_provision": "s3"
+    },
+    {
+      "term": "end-user",
+      "definition": "end-user , in relation to a telecommunications service, means a person who is the ultimate recipient of that service or of another service the provision of which is dependent on that service",
+      "source_provision": "s3"
+    },
+    {
+      "term": "equipment",
+      "definition": "equipment , in this Part and Parts 2 and 3 , means both hardware and software",
+      "source_provision": "s3"
+    },
+    {
+      "term": "full interception capability",
+      "definition": "full interception capability means the capability to intercept a telecommunication as described in section 10",
+      "source_provision": "s3"
+    },
+    {
+      "term": "information",
+      "definition": "information , in subpart 4 of Part 4 , means information in the possession or under the control of the network operator",
+      "source_provision": "s3"
+    },
+    {
+      "term": "infrastructure-level service",
+      "definition": "infrastructure-level service means any service that provides the physical medium over which telecommunications are transmitted (for example, optical fibre cable), but does not include the device or equipment that generates, transmits, or receives any telecommunication signal",
+      "source_provision": "s3"
+    },
+    {
+      "term": "intelligence and security agency",
+      "definition": "intelligence and security agency means— a the New Zealand Security Intelligence Service; or b the Government Communications Security Bureau",
+      "source_provision": "s3"
+    },
+    {
+      "term": "intercept",
+      "definition": "intercept , in relation to a private telecommunication, includes hear, listen to, record, monitor, acquire, or receive the telecommunication— a while it is taking place on a telecommunications network; or b while it is in transit on a telecommunications network",
+      "source_provision": "s3"
+    },
+    {
+      "term": "intercept accessible",
+      "definition": "intercept accessible , in relation to a network or service, means the capability described in section 12",
+      "source_provision": "s3"
+    },
+    {
+      "term": "intercept ready",
+      "definition": "intercept ready , in relation to a network or service, means the capability described in section 11",
+      "source_provision": "s3"
+    },
+    {
+      "term": "interception warrant",
+      "definition": "interception warrant means— a a surveillance device warrant issued under section 53 of the Search and Surveillance Act 2012 or subpart 6 of Part 3 of the Mutual Assistance in Criminal Matters Act 1992 ; or b an intelligence warrant issued under Part 4 of the Intelligence and Security Act 2017",
+      "source_provision": "s3"
+    },
+    {
+      "term": "law enforcement agency",
+      "definition": "law enforcement agency means— a the New Zealand Police; or b a specified law enforcement agency within the meaning of section 50 of the Search and Surveillance Act 2012 that is approved by an Order in Council under that section to use interception devices",
+      "source_provision": "s3"
+    },
+    {
+      "term": "Minister",
+      "definition": "Minister means the Minister of the Crown who, under the authority of any warrant or with the authority of the Prime Minister, is for the time being responsible for the administration of this Act",
+      "source_provision": "s3"
+    },
+    {
+      "term": "Minister for Communications and Information Technology",
+      "definition": "Minister for Communications and Information Technology means the Minister of the Crown who, under the authority of any warrant or with the authority of the Prime Minister, is for the time being responsible for communications and information technology",
+      "source_provision": "s3"
+    },
+    {
+      "term": "Minister responsible for the Government Communications Security Bureau",
+      "definition": "Minister responsible for the Government Communications Security Bureau means the Minister who, under the authority of any warrant or with the authority of the Prime Minister, is for the time being responsible for the administration of the Government Communications Security Bureau",
+      "source_provision": "s3"
+    },
+    {
+      "term": "Minister of Trade",
+      "definition": "Minister of Trade means the Minister of the Crown who, under the authority of any warrant or with the authority of the Prime Minister, is for the time being responsible for trade",
+      "source_provision": "s3"
+    },
+    {
+      "term": "national security",
+      "definition": "national security , in relation to New Zealand, includes its economic well-being",
+      "source_provision": "s3"
+    },
+    {
+      "term": "network",
+      "definition": "network means a system comprising telecommunication links to permit telecommunication",
+      "source_provision": "s3"
+    },
+    {
+      "term": "network operations centre",
+      "definition": "network operations centre means any part of an organisation or a network that is responsible for controlling the operation, performance, or security of a public telecommunications network (whether or not any of those activities are outsourced)",
+      "source_provision": "s3"
+    },
+    {
+      "term": "network operator",
+      "definition": "network operator means— a a person who owns, controls, or operates a public telecommunications network; or b a person who supplies (whether by wholesale or retail) another person with the capability to provide a telecommunications service",
+      "source_provision": "s3"
+    },
+    {
+      "term": "network security risk",
+      "definition": "network security risk means any actual or potential security risk arising from— a the design, build, or operation of a public telecommunications network; or b any interconnection to or between public telecommunications networks in New Zealand or with telecommunications networks overseas",
+      "source_provision": "s3"
+    },
+    {
+      "term": "other lawful interception authority",
+      "definition": "other lawful interception authority — a means an authorisation issued under Part 4 of the Intelligence and Security Act 2017 (within the meaning of section 47 of that Act); and b includes an authority to intercept a private communication (whether in an urgent or emergency situation or otherwise) that is granted or issued to any member of a surveillance agency under any other enactment",
+      "source_provision": "s3"
+    },
+    {
+      "term": "outsourcing arrangement",
+      "definition": "outsourcing arrangement means any arrangement (whether contractual or otherwise) entered into by a network operator and another person within New Zealand (other than a surveillance agency) that enables the sharing of services for the purpose of meeting any interception capability requirements in this Act",
+      "source_provision": "s3"
+    },
+    {
+      "term": "public data network",
+      "definition": "public data network — a means a data network used, or intended for use, in whole or in part, by the public; and b includes, without limitation, the following facilities: i Internet access; and ii email access",
+      "source_provision": "s3"
+    },
+    {
+      "term": "public switched telephone network",
+      "definition": "public switched telephone network means a dial-up telephone network used, or intended for use, in whole or in part, by the public for the purposes of providing telecommunication between telecommunication devices",
+      "source_provision": "s3"
+    },
+    {
+      "term": "public telecommunications network",
+      "definition": "public telecommunications network means— a a public switched telephone network; and b a public data network",
+      "source_provision": "s3"
+    },
+    {
+      "term": "purely resold telecommunications service",
+      "definition": "purely resold telecommunications service means any service— a that is supplied or provided to a network operator ( A ); and b that (A) resells, supplies, or provides to another person without making any technical modification to that service",
+      "source_provision": "s3"
+    },
+    {
+      "term": "register",
+      "definition": "register means the register of network operators established under section 63",
+      "source_provision": "s3"
+    },
+    {
+      "term": "Registrar",
+      "definition": "Registrar means the person appointed as the Registrar of network operators under section 73",
+      "source_provision": "s3"
+    },
+    {
+      "term": "responsible Ministers",
+      "definition": "responsible Ministers means— a the Minister in charge of the New Zealand Security Intelligence Service; and b the Minister responsible for the Government Communications Security Bureau; and c the Minister of Police",
+      "source_provision": "s3"
+    },
+    {
+      "term": "security risk",
+      "definition": "security risk means any actual or potential risk to New Zealand's national security",
+      "source_provision": "s3"
+    },
+    {
+      "term": "service provider",
+      "definition": "service provider — a means any person who, from within or outside New Zealand, provides or makes available in New Zealand a telecommunications service to an end-user (whether or not as part of a business undertaking and regardless of the nature of that business undertaking); but b does not include a network operator",
+      "source_provision": "s3"
+    },
+    {
+      "term": "significant network security risk",
+      "definition": "significant network security risk means a network security risk that is a significant risk to New Zealand's national security",
+      "source_provision": "s3"
+    },
+    {
+      "term": "surveillance agency",
+      "definition": "surveillance agency means— a a law enforcement agency; or b an intelligence and security agency",
+      "source_provision": "s3"
+    },
+    {
+      "term": "telecommunication",
+      "definition": "telecommunication — a means the conveyance by electromagnetic means from one device to another of any encrypted or non-encrypted sign, signal, impulse, writing, image, sound, instruction, information, or intelligence of any nature, whether for the information of any person using the device or not; but b does not include any conveyance that constitutes broadcasting (within the meaning of section 2(1) of the Broadcasting Act 1989 )",
+      "source_provision": "s3"
+    },
+    {
+      "term": "telecommunication device",
+      "definition": "telecommunication device — a means any terminal device capable of being used for transmitting or receiving a telecommunication over a network; and b includes a telephone device",
+      "source_provision": "s3"
+    },
+    {
+      "term": "telecommunication link",
+      "definition": "telecommunication link means any line, radio frequency, or other medium used for telecommunication",
+      "source_provision": "s3"
+    },
+    {
+      "term": "telecommunications service",
+      "definition": "telecommunications service means any goods, services, equipment, and facilities that enable or facilitate telecommunication",
+      "source_provision": "s3"
+    },
+    {
+      "term": "telephone device",
+      "definition": "telephone device means any terminal device capable of being used for transmitting or receiving any communications over a network designed for the transmission of voice frequency communication",
+      "source_provision": "s3"
+    },
+    {
+      "term": "traffic data",
+      "definition": "traffic data has the meaning given in section 3AB",
+      "source_provision": "s3"
+    },
+    {
+      "term": "wholesale network service",
+      "definition": "wholesale network service means a service, other than an infrastructure-level service or a purely resold telecommunications service, that— a is provided by a network operator ( network operator A ) only to 1 or more other network operators; and b is provided exclusively over 1 or more networks that are owned, controlled, or operated by network operator A.",
+      "source_provision": "s3"
+    },
+    {
+      "term": "specified traffic data",
+      "definition": "specified traffic data , in relation to a telecommunication, means traffic data that identifies the nature of the telecommunication ( see section 3AB(1) (a) (i) )",
+      "source_provision": "s10"
+    },
+    {
+      "term": "useable format",
+      "definition": "useable format means— a a format that is determined by a notice issued under section 42 ; or b a format that is acceptable to the network operator and the surveillance agency executing the interception warrant or other lawful interception authority.",
+      "source_provision": "s10"
+    },
+    {
+      "term": "affected party",
+      "definition": "affected party , in relation to a relevant decision, means a network operator, a member of the class of network operators, or a telecommunications service provider (as the case may be) to which the decision applies",
+      "source_provision": "s44A"
+    },
+    {
+      "term": "decision maker",
+      "definition": "decision maker , in relation to a relevant decision, means the person or persons who make the decision",
+      "source_provision": "s44A"
+    },
+    {
+      "term": "relevant decision",
+      "definition": "relevant decision means any of the following decisions: a a decision of the Minister to make a direction under section 19 : b a decision of a designated officer or the Minister under section 29 or 34 to grant, vary, or revoke an exemption: c a decision of the Minister to make a direction under section 38 : d a decision of a review panel as to recommendations under section 39 .",
+      "source_provision": "s44A"
+    },
+    {
+      "term": "administrative (privileged user) authentication credentials",
+      "definition": "administrative (privileged user) authentication credentials means the authentication credentials of a privileged user",
+      "source_provision": "s47"
+    },
+    {
+      "term": "authentication credentials",
+      "definition": "authentication credentials means any information (for example, passwords or usernames) used to ascertain the identity of a user, process, or device",
+      "source_provision": "s47"
+    },
+    {
+      "term": "privileged user",
+      "definition": "privileged user means a person who has authorisations that enable the person to, among other things, alter, bypass, or circumvent network security protections.",
+      "source_provision": "s47"
+    },
+    {
+      "term": "Chief Commissioner of Intelligence Warrants",
+      "definition": "Chief Commissioner of Intelligence Warrants has the meaning given to it by section 4 of the Intelligence and Security Act 2017",
+      "source_provision": "s56"
+    },
+    {
+      "term": "Commissioner",
+      "definition": "Commissioner means a Commissioner of Intelligence Warrants within the meaning of section 4 of the Intelligence and Security Act 2017 .",
+      "source_provision": "s56"
+    },
+    {
+      "term": "relevant change",
+      "definition": "relevant change means a change to any of the following: a the name of the network operator: b the name and contact details of a suitable employee of the network operator who will be responsible for dealing with issues raised by a surveillance agency relating to interception capability or an interception warrant or any other lawful interception authority: c the name and contact details of a suitable employee of the network operator who will be responsible for dealing with issues raised by the Director relating to network security: d the geographical coverage of the network operator's telecommunications services and public telecommunications networks: e the outsourcing arrangements of the network operator: f the types of telecommunications services provided by the network operator",
+      "source_provision": "s68"
+    },
+    {
+      "term": "threshold change",
+      "definition": "threshold change means a change in circumstances that has the effect of changing the interception capability duties that apply to the network operator under this Act.",
+      "source_provision": "s68"
+    },
+    {
+      "term": "2022 Act",
+      "definition": "2022 Act means the Security Information in Proceedings Act 2022",
+      "source_provision": "s101"
+    },
+    {
+      "term": "authorised court",
+      "definition": "authorised court , national security information , NSI certificate , and security information order have the meanings given to them by section 4 of the 2022 Act.",
+      "source_provision": "s101"
+    }
+  ]
+}

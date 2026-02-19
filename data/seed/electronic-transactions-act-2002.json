@@ -1,0 +1,327 @@
+{
+  "id": "electronic-transactions-act-2002",
+  "type": "statute",
+  "title": "Electronic Transactions Act 2002",
+  "title_en": "Electronic Transactions Act 2002",
+  "short_name": "ETA",
+  "status": "in_force",
+  "issued_date": "2002-11-17",
+  "in_force_date": "2003-03-01",
+  "url": "https://www.legislation.govt.nz/act/public/2002/0035/latest/whole.html",
+  "description": "Electronic Transactions Act 2002 (New Zealand)",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "",
+      "content": "This Act is the Electronic Transactions Act 2002."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "",
+      "content": "1 This Act (except sections 14(3) and 36 ) comes into force on a date to be appointed by the Governor-General by Order in Council. 2 Sections 14(3) and 36 come into force on the day after the date on which this Act receives the Royal assent."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "",
+      "content": "The purpose of this Act is to facilitate the use of electronic technology by— a reducing uncertainty regarding— i the legal effect of information that is in electronic form or that is communicated by electronic means; and ii the time and place of dispatch and receipt of electronic communications; and b providing that certain paper-based legal requirements may be met by using electronic technology that is functionally equivalent to those legal requirements."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "",
+      "content": "In this Act,— a matters concerning the legal effect of information that is in electronic form or that is communicated by electronic means are set out in section 8 : b default rules about the time and place of dispatch and receipt of electronic communications are set out in sections 9 to 13A : c key provisions concerning the use of electronic technology to meet certain legal requirements are set out in sections 14 to 17 : d provisions that specify certain legal requirements that may be met by using electronic technology, and how they may be met, are set out in sections 18 to 32 ."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "",
+      "content": "In this Act, unless the context otherwise requires,— data storage device means any article or device (for example, a disk) from which information is capable of being reproduced, with or without the aid of any other article or device electronic includes electrical, digital, magnetic, optical, electromagnetic, biometric, and photonic electronic communication means a communication by electronic means electronic signature , in relation to information in electronic form, means a method used to identify a person and to indicate that person's approval of that information information includes information (whether in its original form or otherwise) that is in the form of a document, a signature, a seal, data, text, images, sound, or speech information system has the meaning set out in section 10(2) legal requirement has the meaning set out in section 15(2) Minister means the Minister of the Crown who, under the authority of any warrant or with the authority of the Prime Minister, is for the time being responsible for the administration of this Act transaction includes— a a transaction of a non-commercial nature: b a single communication: c the outcome of multiple related communications."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "",
+      "content": "In interpreting this Act, reference may be made to— a the Model Law on Electronic Commerce adopted by the United Nations Commission on International Trade Law on 16 December 1996: b any document that relates to the Model Law that originates from the United Nations Commission on International Trade Law, or its working group for the preparation of the Model Law."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "",
+      "content": "This Act binds the Crown."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "",
+      "content": "To avoid doubt, information is not denied legal effect solely because it is— a in electronic form or is in an electronic communication: b referred to in an electronic communication that is intended to give rise to that legal effect."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "",
+      "content": "Sections 10 to 13 apply to an electronic communication except to the extent that— a the parties to the communication otherwise agree: b an enactment provides otherwise."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "",
+      "content": "1 An electronic communication is taken to be dispatched at the time the electronic communication first enters an information system outside the control of the originator. 2 For the purposes of sections 10 and 11 , information system means a system for producing, sending, receiving, storing, displaying, or otherwise processing electronic communications."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "",
+      "content": "An electronic communication is taken to be received,— a in the case of an addressee who has designated an information system for the purpose of receiving electronic communications, at the time the electronic communication enters that information system; or b in any other case, at the time the electronic communication comes to the attention of the addressee."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "",
+      "content": "An electronic communication is taken to be dispatched from— a the originator's place of business; or b if the originator has more than 1 place of business,— i the place of business that has the closest relationship with the underlying transaction; or ii if there is no place of business to which subparagraph (i) applies, the originator's principal place of business; or c in the case of an originator who does not have a place of business, the originator's ordinary place of residence."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "",
+      "content": "An electronic communication is taken to be received at— a the addressee's place of business; or b if the addressee has more than 1 place of business,— i the place of business that has the closest relationship with the underlying transaction; or ii if there is no place of business to which subparagraph (i) applies, the addressee's principal place of business; or c in the case of an addressee who does not have a place of business, the addressee's ordinary place of residence."
+    },
+    {
+      "provision_ref": "s13A",
+      "section": "13A",
+      "title": "Time of communication of acceptance of offer",
+      "content": "1 For the purpose of the formation of a contract, an acceptance by electronic communication of an offer is taken to be communicated to the offeror at the time determined by section 11 to be the time of receipt for that electronic communication. 2 Subsection (1) does not apply if— a the parties to the contract otherwise agree; or b an enactment provides otherwise."
+    },
+    {
+      "provision_ref": "s14",
+      "chapter": "Part 1: Time of communication of acceptance of offer",
+      "section": "14",
+      "title": "",
+      "content": "1 Subject to subsection (2), this Part applies to every enactment that is part of the law of New Zealand and that is passed either before or after the commencement of this Act. 2 This Part does not apply to— a an enactment that requires information to be recorded, given, produced, or retained, or a signature to be given, or a signature or seal to be witnessed— i in accordance with particular electronic technology requirements; or ii on a particular kind of data storage device; or iii by means of a particular kind of electronic communication: b the enactments specified in Part 1 of the Schedule : c the provisions of enactments specified in column 2 of Part 2 of the Schedule : d the provisions of enactments that are described in Part 3 of the Schedule : e the provisions of enactments that are described in Part 4 of the Schedule except to the extent that rules of a court, or guidelines issued with the authority of a court or tribunal, specified in that Part of the Schedule, provide for the use of electronic technology in accordance with this Part. 3 The Governor-General may, by Order in Council, amend the Schedule or repeal the Schedule and substitute a new schedule. 4 5"
+    },
+    {
+      "provision_ref": "s14A",
+      "chapter": "Part 1: Time of communication of acceptance of offer",
+      "section": "14A",
+      "title": "Orders making additions to Schedule are confirmable instruments",
+      "content": "1 This section applies to an Order in Council made under section 14(3) that makes an addition to the Schedule. 2 The explanatory note of the Order in Council must indicate that— a it is a confirmable instrument under section 47B of the Legislation Act 2012; and b it is revoked at a time stated in the note, unless earlier confirmed by an Act of Parliament; and c the stated time is the applicable deadline under section 47C(1) (a) or (b) of that Act."
+    },
+    {
+      "provision_ref": "s15",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "15",
+      "title": "",
+      "content": "1 A legal requirement can be met by electronic means if the applicable provisions in subpart 2 , and any applicable regulations made under section 36 , are complied with. 2 For the purposes of this Part, legal requirement — a means a requirement in an enactment to which this Part applies; and b includes a provision in an enactment to which this Part applies that provides consequences that depend on whether or not the provision is complied with."
+    },
+    {
+      "provision_ref": "s16",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "16",
+      "title": "",
+      "content": "1 Nothing in this Part requires a person to use, provide, or accept information in an electronic form without that person's consent. 2 For the purposes of this Part,— a a person may consent to use, provide, or accept information in an electronic form subject to conditions regarding the form of the information or the means by which the information is produced, sent, received, processed, stored, or displayed: b consent may be inferred from a person's conduct. 3 Subsections (1) and (2) (a) are for the avoidance of doubt."
+    },
+    {
+      "provision_ref": "s17",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "17",
+      "title": "",
+      "content": "For the purposes of this Part, the integrity of information is maintained only if the information has remained complete and unaltered, other than the addition of any endorsement, or any immaterial change, that arises in the normal course of communication, storage, or display."
+    },
+    {
+      "provision_ref": "s18",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "18",
+      "title": "",
+      "content": "A legal requirement that information be in writing is met by information that is in electronic form if the information is readily accessible so as to be usable for subsequent reference."
+    },
+    {
+      "provision_ref": "s19",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "19",
+      "title": "",
+      "content": "A legal requirement that information be recorded in writing is met by recording the information in electronic form if the information is readily accessible so as to be usable for subsequent reference."
+    },
+    {
+      "provision_ref": "s20",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "20",
+      "title": "",
+      "content": "1 A legal requirement to give information in writing is met by giving the information in electronic form, whether by means of an electronic communication or otherwise, if— a the information is readily accessible so as to be usable for subsequent reference; and b the person to whom the information is required to be given consents to the information being given in electronic form and by means of an electronic communication, if applicable. 2 If subsection (1) applies, a legal requirement to provide multiple copies of the information to the same person at the same time is met by providing a single electronic version of the information. 3 Subsection (1) applies to a legal requirement to give information even if that information is required to be given in a specified manner, for example by filing, sending, serving, delivering, lodging, or posting that information. 4 A legal requirement to give information includes, for example,— a making an application: b making or lodging a claim: c giving, sending, or serving a notification: d lodging a return: e making a request: f making a declaration: g lodging or issuing a certificate: h making, varying, or cancelling an election: i lodging an objection: j giving a statement of reasons."
+    },
+    {
+      "provision_ref": "s21",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "21",
+      "title": "",
+      "content": "1 In order to meet a legal requirement to which any of sections 18 to 20 apply by electronic means, it is not necessary to comply with a paper-based format requirement. 2 In this section and section 36(b) (ii) , paper-based format requirement means a legal requirement of the following kind that applies to information in paper or other non-electronic form: a a legal requirement relating to the format or layout of information: b a legal requirement relating to the materials to be used for writing information: c any similar legal requirement."
+    },
+    {
+      "provision_ref": "s22",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "22",
+      "title": "",
+      "content": "1 Subject to subsection (2), a legal requirement for a signature other than a witness' signature is met by means of an electronic signature if the electronic signature— a adequately identifies the signatory and adequately indicates the signatory's approval of the information to which the signature relates; and b is as reliable as is appropriate given the purpose for which, and the circumstances in which, the signature is required. 2 A legal requirement for a signature that relates to information legally required to be given to a person is met by means of an electronic signature only if that person consents to receiving the electronic signature."
+    },
+    {
+      "provision_ref": "s23",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "23",
+      "title": "",
+      "content": "1 Subject to subsection (2), a legal requirement for a signature or a seal to be witnessed is met by means of a witness' electronic signature if,— a in the case of the witnessing of a signature, the signature to be witnessed is an electronic signature that complies with section 22 ; and b in the case of the witnessing of a signature or a seal, the electronic signature of the witness— i adequately identifies the witness and adequately indicates that the signature or seal has been witnessed; and ii is as reliable as is appropriate given the purpose for which, and the circumstances in which, the witness' signature is required. 2 A legal requirement for a signature or seal to be witnessed, if that signature or seal relates to information legally required to be given to a person, is met by means of a witness' electronic signature only if that person consents to receiving the witness' electronic signature."
+    },
+    {
+      "provision_ref": "s24",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "24",
+      "title": "",
+      "content": "1 For the purposes of sections 22 and 23 , it is presumed that an electronic signature is as reliable as is appropriate if— a the means of creating the electronic signature is linked to the signatory and to no other person; and b the means of creating the electronic signature was under the control of the signatory and of no other person; and c any alteration to the electronic signature made after the time of signing is detectable; and d where the purpose of the legal requirement for a signature is to provide assurance as to the integrity of the information to which it relates, any alteration made to that information after the time of signing is detectable. 2 Subsection (1) does not prevent any person from proving on other grounds or by other means that an electronic signature— a is as reliable as is appropriate; or b is not as reliable as is appropriate."
+    },
+    {
+      "provision_ref": "s25",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "25",
+      "title": "",
+      "content": "1 A legal requirement to retain information that is in paper or other non-electronic form is met by retaining an electronic form of the information if— a the electronic form provides a reliable means of assuring the maintenance of the integrity of the information; and b the information is readily accessible so as to be usable for subsequent reference. 2 Subsection (1) applies to information that is a public record within the meaning of the Public Records Act 2005 only if the Chief Archivist has approved the retention of that information in electronic form. 3 To avoid doubt, if information is retained in electronic form in accordance with subsection (1), the paper or other non-electronic form of that information need not be retained."
+    },
+    {
+      "provision_ref": "s26",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "26",
+      "title": "",
+      "content": "Subject to section 27 , a legal requirement to retain information that is in electronic form is met by retaining the information— a in paper or other non-electronic form if the form provides a reliable means of assuring the maintenance of the integrity of the information; or b in electronic form if— i the electronic form provides a reliable means of assuring the maintenance of the integrity of the information; and ii the information is readily accessible so as to be usable for subsequent reference."
+    },
+    {
+      "provision_ref": "s27",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "27",
+      "title": "",
+      "content": "In addition to the conditions specified in section 26 , if a person is required to retain information that is contained in an electronic communication,— a the person must also retain such information obtained by that person as enables the identification of— i the origin of the electronic communication; and ii the destination of the electronic communication; and iii the time when the electronic communication was sent and the time when it was received; and b the information referred to in paragraph (a) must be readily accessible so as to be usable for subsequent reference."
+    },
+    {
+      "provision_ref": "s28",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "28",
+      "title": "",
+      "content": "A legal requirement to provide or produce information that is in paper or other non-electronic form is met by providing or producing the information in electronic form, whether by means of an electronic communication or otherwise, if— a the form and means of the provision or production of the information reliably assures the maintenance of the integrity of the information, given the purpose for which, and the circumstances in which, the information is required to be provided or produced; and b the information is readily accessible so as to be usable for subsequent reference; and c the person to whom the information is required to be provided or produced consents to the information being provided or produced in an electronic form and, if applicable, by means of an electronic communication."
+    },
+    {
+      "provision_ref": "s29",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "29",
+      "title": "",
+      "content": "A legal requirement to provide or produce information that is in electronic form is met by providing or producing the information— a in paper or other non-electronic form; but, if the maintenance of the integrity of the information cannot be assured, the person who must provide or produce the information must— i notify every person to whom the information is required to be provided or produced of that fact; and ii if requested to do so, provide or produce the information in electronic form in accordance with paragraph (b); or b in electronic form, whether by means of an electronic communication or otherwise, if— i the form and means of the provision or production of the information reliably assures the maintenance of the integrity of the information, given the purpose for which, and the circumstances in which, the information is required to be provided or produced; and ii the information is readily accessible so as to be usable for subsequent reference; and iii the person to whom the information is required to be provided or produced consents to the provision or production of the information in an electronic form and, if applicable, by means of an electronic communication."
+    },
+    {
+      "provision_ref": "s30",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "30",
+      "title": "",
+      "content": "A legal requirement to provide access to information that is in paper or other non-electronic form is met by providing access to the information in electronic form if— a the form and means of access to the information reliably assures the maintenance of the integrity of the information, given the purpose for which, and the circumstances in which, access to the information is required to be provided; and b the person to whom access is required to be provided consents to accessing the information in that electronic form."
+    },
+    {
+      "provision_ref": "s31",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "31",
+      "title": "",
+      "content": "A legal requirement to provide access to information that is in electronic form is met by providing access to the information— a in paper or other non-electronic form; but, if the maintenance of the integrity of the information cannot be assured, the person who must provide access to the information must— i notify every person to whom access is required to be provided of that fact; and ii if requested to do so, provide access to the information in electronic form in accordance with paragraph (b); or b in electronic form, whether by means of an electronic communication or otherwise, if— i the form and means of access to the information reliably assures the maintenance of the integrity of the information, given the purpose for which, and the circumstances in which, access to the information is required to be provided; and ii the person to whom access is required to be provided consents to accessing the information in that electronic form."
+    },
+    {
+      "provision_ref": "s32",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "32",
+      "title": "",
+      "content": "A legal requirement to compare a document with an original document may be met by comparing that document with an electronic form of the original document if the electronic form reliably assures the maintenance of the integrity of the document."
+    },
+    {
+      "provision_ref": "s33",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "33",
+      "title": "",
+      "content": "Nothing in this Part affects any legal requirement to the extent that the requirement relates to the content of information."
+    },
+    {
+      "provision_ref": "s34",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "34",
+      "title": "",
+      "content": "The copyright in a work is not infringed by any of the following acts if they are carried out for the purposes of meeting a legal requirement by electronic means: a the generation of an electronic form of a document: b the production of information by means of an electronic communication."
+    },
+    {
+      "provision_ref": "s35",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "35",
+      "title": "",
+      "content": "1 The Ministry of Economic Development must, within 2 years after the commencement of this Act, report to the Minister— a whether it is desirable that the enactments and provisions set out in the Schedule continue to be excluded from Part 3 ; and b if it is indicated in the report that any of those enactments or provisions should not continue to be excluded from Part 3 , whether any regulations are required to be made under section 36 . 2 In preparing the report, the Ministry must consider any reports prepared by the Law Commission or any other body relating to the subject matter of the Ministry's report. 3 As soon as practicable after receiving a report from the Ministry, the Minister must present a copy of it to the House of Representatives."
+    },
+    {
+      "provision_ref": "s36",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "36",
+      "title": "",
+      "content": "The Governor-General may, by Order in Council, make regulations for all or any of the following purposes: a prescribing any conditions that must be complied with in order to meet a legal requirement by electronic means: b without limiting paragraph (a), prescribing 1 or more requirements that— i must be complied with in order to meet, by electronic means, a legal requirement to which any of sections 18 to 20 apply; and ii apply instead of a paper-based format requirement: c if an enactment sets out a form that must be used for the purposes of meeting a legal requirement, prescribing an electronic form that may be substituted for the form set out in the enactment: d if an enactment provides for the time at which a legal requirement to provide information is to be treated as satisfied if that information is provided by post or by any other non-electronic means, providing for the time at which the legal requirement is to be treated as satisfied by an electronic communication."
+    },
+    {
+      "provision_ref": "s37",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "37",
+      "title": "",
+      "content": "1 A person who is authorised to prescribe a form under an enactment is authorised— a to prescribe an electronic form for the purposes of that enactment; and b to prescribe requirements in connection with the use of that electronic form, including requirements for its electronic signature. 2 Nothing in subsection (1) authorises a person to require the use of an electronic form under any enactment."
+    },
+    {
+      "provision_ref": "s38",
+      "chapter": "Part 3: Orders making additions to Schedule are confirmable instruments",
+      "section": "38",
+      "title": "",
+      "content": "Amendment(s) incorporated in the Act(s) ."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "data storage device",
+      "definition": "data storage device means any article or device (for example, a disk) from which information is capable of being reproduced, with or without the aid of any other article or device",
+      "source_provision": "s5"
+    },
+    {
+      "term": "electronic",
+      "definition": "electronic includes electrical, digital, magnetic, optical, electromagnetic, biometric, and photonic",
+      "source_provision": "s5"
+    },
+    {
+      "term": "electronic communication",
+      "definition": "electronic communication means a communication by electronic means",
+      "source_provision": "s5"
+    },
+    {
+      "term": "electronic signature",
+      "definition": "electronic signature , in relation to information in electronic form, means a method used to identify a person and to indicate that person's approval of that information",
+      "source_provision": "s5"
+    },
+    {
+      "term": "information",
+      "definition": "information includes information (whether in its original form or otherwise) that is in the form of a document, a signature, a seal, data, text, images, sound, or speech",
+      "source_provision": "s5"
+    },
+    {
+      "term": "information system",
+      "definition": "information system has the meaning set out in section 10(2)",
+      "source_provision": "s5"
+    },
+    {
+      "term": "legal requirement",
+      "definition": "legal requirement has the meaning set out in section 15(2)",
+      "source_provision": "s5"
+    },
+    {
+      "term": "Minister",
+      "definition": "Minister means the Minister of the Crown who, under the authority of any warrant or with the authority of the Prime Minister, is for the time being responsible for the administration of this Act",
+      "source_provision": "s5"
+    },
+    {
+      "term": "transaction",
+      "definition": "transaction includes— a a transaction of a non-commercial nature: b a single communication: c the outcome of multiple related communications.",
+      "source_provision": "s5"
+    }
+  ]
+}
