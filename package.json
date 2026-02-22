@@ -1,6 +1,6 @@
 {
   "name": "@ansvar/newzealand-law-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "mcpName": "eu.ansvar/newzealand-law-mcp",
   "description": "New Zealand law database covering privacy, digital communications, electronic transactions, companies, and commerce law with full-text search",
   "author": "Ansvar Systems <hello@ansvar.eu>",
