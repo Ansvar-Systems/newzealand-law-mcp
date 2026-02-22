@@ -7,13 +7,13 @@
     "source": "github"
   },
   "homepage": "https://ansvar.eu",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "Apache-2.0",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@ansvar/newzealand-law-mcp",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "transport": {
         "type": "stdio"
       }
@@ -21,7 +21,7 @@
     {
       "registryType": "npm",
       "identifier": "@ansvar/newzealand-law-mcp",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "transport": {
         "type": "streamable-http",
         "url": "https://newzealand-law-mcp.vercel.app/mcp"
