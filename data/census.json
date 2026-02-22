@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "jurisdiction": "NZ",
+  "portal": "legislation.govt.nz",
+  "generated": "2026-02-22",
+  "total_laws": 10,
+  "total_provisions": 2927,
+  "laws": [
+    {
+      "id": "commerce-act-1986",
+      "title": "Commerce Act 1986",
+      "provisions": 484
+    },
+    {
+      "id": "companies-act-1993",
+      "title": "Companies Act 1993",
+      "provisions": 844
+    },
+    {
+      "id": "consumer-guarantees-act-1993",
+      "title": "Consumer Guarantees Act 1993",
+      "provisions": 64
+    },
+    {
+      "id": "electronic-transactions-act-2002",
+      "title": "Electronic Transactions Act 2002",
+      "provisions": 40
+    },
+    {
+      "id": "films-videos-publications-classification-act-1993",
+      "title": "Films, Videos, and Publications Classification Act 1993",
+      "provisions": 257
+    },
+    {
+      "id": "harmful-digital-communications-act-2015",
+      "title": "Harmful Digital Communications Act 2015",
+      "provisions": 43
+    },
+    {
+      "id": "intelligence-and-security-act-2017",
+      "title": "Intelligence and Security Act 2017",
+      "provisions": 374
+    },
+    {
+      "id": "privacy-act-2020",
+      "title": "Privacy Act 2020",
+      "provisions": 240
+    },
+    {
+      "id": "search-and-surveillance-act-2012",
+      "title": "Search and Surveillance Act 2012",
+      "provisions": 444
+    },
+    {
+      "id": "telecommunications-interception-capability-security-act-2013",
+      "title": "Telecommunications (Interception Capability and Security) Act 2013",
+      "provisions": 137
+    }
+  ]
+}
