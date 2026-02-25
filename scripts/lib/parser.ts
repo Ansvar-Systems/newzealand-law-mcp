@@ -86,17 +86,79 @@ function stripXml(xml: string): string {
  * Returns null if not found.
  */
 function extractElement(xml: string, tagName: string): string | null {
-  // Match both self-closing and content-bearing elements
   const regex = new RegExp(`<${tagName}(?:\\s[^>]*)?>([\\s\\S]*?)</${tagName}>`, 'i');
   const match = xml.match(regex);
   return match ? match[1] : null;
 }
 
 /**
- * Extract all occurrences of an element (non-greedy, non-nested).
- * Returns array of { outerXml, innerXml, attributes } for each match.
+ * Extract all top-level occurrences of an element, handling nesting properly.
+ * Uses depth counting instead of non-greedy regex to avoid backtracking.
  */
-function extractAllElements(xml: string, tagName: string): Array<{ outer: string; inner: string; attrs: string }> {
+function extractTopLevelElements(xml: string, tagName: string): Array<{ inner: string; attrs: string; startPos: number }> {
+  const results: Array<{ inner: string; attrs: string; startPos: number }> = [];
+  const openPattern = new RegExp(`<${tagName}(\\s[^>]*)?>`, 'gi');
+  const closeTag = `</${tagName}>`;
+  const closeTagLen = closeTag.length;
+
+  let openMatch: RegExpExecArray | null;
+  while ((openMatch = openPattern.exec(xml)) !== null) {
+    const startPos = openMatch.index;
+    const attrs = openMatch[1] || '';
+    const contentStart = startPos + openMatch[0].length;
+
+    // Count nesting depth to find the matching close tag
+    let depth = 1;
+    let pos = contentStart;
+    const searchOpenTag = new RegExp(`<${tagName}(?:\\s[^>]*)?>`, 'gi');
+    const searchCloseTag = closeTag.toLowerCase();
+
+    while (depth > 0 && pos < xml.length) {
+      const nextOpen = xml.indexOf(`<${tagName}`, pos);
+      const nextOpenAlt = xml.indexOf(`<${tagName}>`, pos);
+      const nextOpenSpace = xml.indexOf(`<${tagName} `, pos);
+      const nextClose = xml.toLowerCase().indexOf(searchCloseTag, pos);
+
+      // Find the earliest next open (must be followed by > or space)
+      let effectiveNextOpen = -1;
+      if (nextOpenAlt !== -1 && (effectiveNextOpen === -1 || nextOpenAlt < effectiveNextOpen)) {
+        effectiveNextOpen = nextOpenAlt;
+      }
+      if (nextOpenSpace !== -1 && (effectiveNextOpen === -1 || nextOpenSpace < effectiveNextOpen)) {
+        effectiveNextOpen = nextOpenSpace;
+      }
+
+      if (nextClose === -1) {
+        // No more close tags, bail
+        break;
+      }
+
+      if (effectiveNextOpen !== -1 && effectiveNextOpen < nextClose) {
+        // Found a nested open tag before the close tag
+        depth++;
+        pos = effectiveNextOpen + tagName.length + 2; // Skip past the opening tag
+      } else {
+        // Found a close tag
+        depth--;
+        if (depth === 0) {
+          const inner = xml.substring(contentStart, nextClose);
+          results.push({ inner, attrs, startPos });
+          // Move the outer regex past this element
+          openPattern.lastIndex = nextClose + closeTagLen;
+        }
+        pos = nextClose + closeTagLen;
+      }
+    }
+  }
+
+  return results;
+}
+
+/**
+ * Extract all occurrences of an element (non-greedy, non-nested).
+ * Use only for elements that don't nest (like def-para, def-term).
+ */
+function extractAllSimpleElements(xml: string, tagName: string): Array<{ outer: string; inner: string; attrs: string }> {
   const results: Array<{ outer: string; inner: string; attrs: string }> = [];
   const regex = new RegExp(`<${tagName}(\\s[^>]*)?>([\\s\\S]*?)</${tagName}>`, 'gi');
   let match: RegExpExecArray | null;
@@ -111,32 +173,59 @@ function extractAllElements(xml: string, tagName: string): Array<{ outer: string
 }
 
 /**
- * Extract an attribute value from an element's attribute string.
+ * Pre-compute a sorted list of part boundaries with their context strings.
+ * This avoids the O(n*m) cost of running findPartContext per provision.
  */
-function getAttr(attrs: string, name: string): string | null {
-  const match = attrs.match(new RegExp(`${name}=["']([^"']*?)["']`));
-  return match ? match[1] : null;
+interface PartBoundary {
+  position: number;
+  context: string;
+}
+
+function buildPartIndex(xml: string): PartBoundary[] {
+  const parts: PartBoundary[] = [];
+  // Find <part ...> opening tags and extract label+heading from the first child elements
+  const partOpenRegex = /<part\s[^>]*>/gi;
+  let match: RegExpExecArray | null;
+
+  while ((match = partOpenRegex.exec(xml)) !== null) {
+    const startPos = match.index;
+    // Look ahead (limited window) for label and heading
+    const window = xml.substring(startPos, Math.min(startPos + 500, xml.length));
+
+    const labelMatch = window.match(/<label[^>]*>(.*?)<\/label>/i);
+    const headingMatch = window.match(/<heading[^>]*>(.*?)<\/heading>/i);
+
+    if (labelMatch || headingMatch) {
+      const label = labelMatch ? stripXml(labelMatch[1]) : '';
+      const heading = headingMatch ? stripXml(headingMatch[1]) : '';
+      const context = label ? `Part ${label}${heading ? ': ' + heading : ''}` : (heading || '');
+      parts.push({ position: startPos, context });
+    }
+  }
+
+  return parts;
 }
 
 /**
- * Find the current Part context for a given position in the XML.
- * Returns "Part N: Title" or undefined.
+ * Look up the part context for a given position using the pre-computed index.
  */
-function findPartContext(xml: string, position: number): string | undefined {
-  // Search backwards from position for the most recent <part> opening
-  const beforeText = xml.substring(0, position);
+function lookupPartContext(partIndex: PartBoundary[], position: number): string | undefined {
+  // Binary search for the last part boundary before this position
+  let lo = 0;
+  let hi = partIndex.length - 1;
+  let result: string | undefined;
 
-  // Find all part headings before this position
-  const partMatches = [...beforeText.matchAll(/<part\s[^>]*>[\s\S]*?<label[^>]*>([\s\S]*?)<\/label>[\s\S]*?<heading>([\s\S]*?)<\/heading>/gi)];
-
-  if (partMatches.length > 0) {
-    const lastPart = partMatches[partMatches.length - 1];
-    const partLabel = stripXml(lastPart[1]);
-    const partHeading = stripXml(lastPart[2]);
-    return `Part ${partLabel}: ${partHeading}`;
+  while (lo <= hi) {
+    const mid = (lo + hi) >>> 1;
+    if (partIndex[mid].position <= position) {
+      result = partIndex[mid].context;
+      lo = mid + 1;
+    } else {
+      hi = mid - 1;
+    }
   }
 
-  return undefined;
+  return result;
 }
 
 /**
@@ -159,22 +248,24 @@ export function parseNzXml(xml: string, act: ActIndexEntry): ParsedAct {
   const definitions: ParsedDefinition[] = [];
   const seenRefs = new Set<string>();
 
+  // Pre-compute part boundaries for O(log n) lookups
+  const partIndex = buildPartIndex(xml);
+
+  // ─── Extract body section (everything between <body> and </body>) ───
+  // This excludes schedules from the main prov extraction
+  const bodyMatch = xml.match(/<body[^>]*>([\s\S]*)<\/body>/i);
+  const bodyXml = bodyMatch ? bodyMatch[1] : xml;
+
   // ─── Extract provisions from <prov> elements ───
+  // Use depth-aware extraction to handle nested <prov> elements
+  const topProvs = extractTopLevelElements(bodyXml, 'prov');
+  const bodyOffset = bodyMatch ? (bodyMatch.index ?? 0) + bodyMatch[0].indexOf(bodyMatch[1]) : 0;
 
-  const provRegex = /<prov\s([^>]*?)>([\s\S]*?)<\/prov>/gi;
-  let provMatch: RegExpExecArray | null;
+  for (const prov of topProvs) {
+    const provContent = prov.inner;
+    const provPosition = bodyOffset + prov.startPos;
 
-  while ((provMatch = provRegex.exec(xml)) !== null) {
-    const provAttrs = provMatch[1];
-    const provContent = provMatch[2];
-    const provPosition = provMatch.index;
-
-    // Skip nested provs (schedule provs will be handled separately)
-    // We check toc="yes" which marks top-level provisions
-    const isToc = getAttr(provAttrs, 'toc');
-    // Also include provs without toc attribute but with a label
-
-    // Extract section number from <label>
+    // Extract section number from the first <label> (direct child level)
     const labelMatch = provContent.match(/<label[^>]*>([\s\S]*?)<\/label>/);
     if (!labelMatch) continue;
 
@@ -184,23 +275,23 @@ export function parseNzXml(xml: string, act: ActIndexEntry): ParsedAct {
     // Build provision_ref (NZ uses "s" prefix for sections)
     const provisionRef = `s${sectionNum}`;
 
-    // Skip duplicates (can happen with nested structures)
+    // Skip duplicates
     if (seenRefs.has(provisionRef)) continue;
     seenRefs.add(provisionRef);
 
     // Extract heading/title
-    const headingMatch = provContent.match(/<heading>([\s\S]*?)<\/heading>/);
+    const headingMatch = provContent.match(/<heading[^>]*>([\s\S]*?)<\/heading>/);
     const title = headingMatch ? stripXml(headingMatch[1]) : '';
 
     // Extract body content from <prov.body>
-    const bodyMatch = provContent.match(/<prov\.body>([\s\S]*?)<\/prov\.body>/);
-    const bodyXml = bodyMatch ? bodyMatch[1] : provContent;
-    const content = stripXml(bodyXml);
+    const bodyContentMatch = provContent.match(/<prov\.body>([\s\S]*)<\/prov\.body>/i);
+    const bodyContentXml = bodyContentMatch ? bodyContentMatch[1] : provContent;
+    const content = stripXml(bodyContentXml);
 
     if (content.length < 5) continue;
 
-    // Determine part context
-    const chapter = findPartContext(xml, provPosition);
+    // Determine part context using pre-computed index
+    const chapter = lookupPartContext(partIndex, provPosition);
 
     provisions.push({
       provision_ref: provisionRef,
@@ -211,8 +302,7 @@ export function parseNzXml(xml: string, act: ActIndexEntry): ParsedAct {
     });
 
     // ─── Extract definitions from this provision ───
-
-    const defParas = extractAllElements(provContent, 'def-para');
+    const defParas = extractAllSimpleElements(provContent, 'def-para');
     for (const defPara of defParas) {
       const termMatch = defPara.inner.match(/<def-term[^>]*>([\s\S]*?)<\/def-term>/);
       if (!termMatch) continue;
@@ -225,7 +315,7 @@ export function parseNzXml(xml: string, act: ActIndexEntry): ParsedAct {
 
       definitions.push({
         term,
-        definition: definition.substring(0, 4000), // Cap definition length
+        definition: definition.substring(0, 4000),
         source_provision: provisionRef,
       });
     }
@@ -233,14 +323,12 @@ export function parseNzXml(xml: string, act: ActIndexEntry): ParsedAct {
 
   // ─── Extract schedule provisions ───
   // Schedules may contain clauses (like mini-acts within the act)
+  const schedules = extractTopLevelElements(xml, 'schedule');
 
-  const scheduleRegex = /<schedule\s([^>]*?)>([\s\S]*?)<\/schedule>/gi;
-  let schedMatch: RegExpExecArray | null;
-
-  while ((schedMatch = scheduleRegex.exec(xml)) !== null) {
-    const schedContent = schedMatch[2];
+  for (const sched of schedules) {
+    const schedContent = sched.inner;
     const schedLabelMatch = schedContent.match(/<label[^>]*>([\s\S]*?)<\/label>/);
-    const schedHeadingMatch = schedContent.match(/<heading>([\s\S]*?)<\/heading>/);
+    const schedHeadingMatch = schedContent.match(/<heading[^>]*>([\s\S]*?)<\/heading>/);
 
     const schedLabel = schedLabelMatch ? stripXml(schedLabelMatch[1]).trim() : '';
     const schedHeading = schedHeadingMatch ? stripXml(schedHeadingMatch[1]) : '';
@@ -248,12 +336,11 @@ export function parseNzXml(xml: string, act: ActIndexEntry): ParsedAct {
       ? `Schedule ${schedLabel}${schedHeading ? ': ' + schedHeading : ''}`
       : (schedHeading ? `Schedule: ${schedHeading}` : 'Schedule');
 
-    // Extract provisions within the schedule
-    const schedProvRegex = /<prov\s([^>]*?)>([\s\S]*?)<\/prov>/gi;
-    let schedProvMatch: RegExpExecArray | null;
+    // Extract provisions within the schedule (top-level only)
+    const schedProvs = extractTopLevelElements(schedContent, 'prov');
 
-    while ((schedProvMatch = schedProvRegex.exec(schedContent)) !== null) {
-      const innerContent = schedProvMatch[2];
+    for (const schedProv of schedProvs) {
+      const innerContent = schedProv.inner;
 
       const innerLabelMatch = innerContent.match(/<label[^>]*>([\s\S]*?)<\/label>/);
       if (!innerLabelMatch) continue;
@@ -265,10 +352,10 @@ export function parseNzXml(xml: string, act: ActIndexEntry): ParsedAct {
       if (seenRefs.has(provisionRef)) continue;
       seenRefs.add(provisionRef);
 
-      const innerHeadingMatch = innerContent.match(/<heading>([\s\S]*?)<\/heading>/);
+      const innerHeadingMatch = innerContent.match(/<heading[^>]*>([\s\S]*?)<\/heading>/);
       const innerTitle = innerHeadingMatch ? stripXml(innerHeadingMatch[1]) : '';
 
-      const innerBodyMatch = innerContent.match(/<prov\.body>([\s\S]*?)<\/prov\.body>/);
+      const innerBodyMatch = innerContent.match(/<prov\.body>([\s\S]*)<\/prov\.body>/i);
       const innerBody = innerBodyMatch ? innerBodyMatch[1] : innerContent;
       const innerText = stripXml(innerBody);
 
@@ -324,6 +411,8 @@ export function parseNzXml(xml: string, act: ActIndexEntry): ParsedAct {
  *
  * The `url` field uses the legislation.govt.nz whole.html pattern for reference,
  * but actual fetching uses the /subscribe/ XML endpoint.
+ *
+ * @deprecated Use census.json for full corpus ingestion instead.
  */
 export const KEY_NZ_ACTS: ActIndexEntry[] = [
   {

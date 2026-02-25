@@ -2,7 +2,7 @@
   "name": "@ansvar/newzealand-law-mcp",
   "version": "1.1.1",
   "mcpName": "eu.ansvar/newzealand-law-mcp",
-  "description": "New Zealand law database covering privacy, digital communications, electronic transactions, companies, and commerce law with full-text search",
+  "description": "New Zealand law database covering 4,025 public Acts (1858-2026), 184K provisions, with full-text search via PCO census-first ingestion",
   "author": "Ansvar Systems <hello@ansvar.eu>",
   "license": "Apache-2.0",
   "repository": {

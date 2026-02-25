@@ -12,6 +12,7 @@
 
 const USER_AGENT = 'NewZealand-Law-MCP/1.0 (https://github.com/Ansvar-Systems/newzealand-law-mcp; hello@ansvar.ai)';
 const MIN_DELAY_MS = 500;
+const REQUEST_TIMEOUT_MS = 60000; // 60s timeout per request
 const SUBSCRIBE_BASE = 'https://legislation.govt.nz/subscribe';
 
 let lastRequestTime = 0;
@@ -39,15 +40,31 @@ export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<F
   await rateLimit();
 
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': USER_AGENT,
-        'Accept': 'application/xml, text/xml, text/html, */*',
-      },
-      redirect: 'follow',
-    });
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
+    let response: Response;
+    try {
+      response = await fetch(url, {
+        headers: {
+          'User-Agent': USER_AGENT,
+          'Accept': 'application/xml, text/xml, text/html, */*',
+        },
+        redirect: 'follow',
+        signal: controller.signal,
+      });
+    } catch (err) {
+      clearTimeout(timeout);
+      if (attempt < maxRetries) {
+        const backoff = Math.pow(2, attempt + 1) * 1000;
+        await new Promise(resolve => setTimeout(resolve, backoff));
+        continue;
+      }
+      throw err;
+    }
 
     if (response.status === 429 || response.status >= 500) {
+      clearTimeout(timeout);
       if (attempt < maxRetries) {
         const backoff = Math.pow(2, attempt + 1) * 1000;
         console.log(`  HTTP ${response.status} for ${url}, retrying in ${backoff}ms...`);
@@ -57,6 +74,7 @@ export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<F
     }
 
     const body = await response.text();
+    clearTimeout(timeout);
     return {
       status: response.status,
       body,

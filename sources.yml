@@ -11,13 +11,13 @@ sources:
     retrieval_method: "XML_DOWNLOAD"
     api_documentation: "https://www.legislation.govt.nz/subscribe/help"
     update_frequency: "weekly"
-    last_ingested: "PENDING_FIRST_INGEST"
+    last_ingested: "2026-02-25"
     license_or_terms:
       type: "Creative Commons Attribution 4.0 International (CC BY 4.0)"
       url: "https://www.legislation.govt.nz/disclaimer"
       summary: "New Zealand Government open data, free to use with attribution to the New Zealand Parliamentary Counsel Office"
     coverage:
-      scope: "All New Zealand Acts of Parliament, legislative instruments, and regulations including Privacy Act 2020, Harmful Digital Communications Act 2015, Electronic Transactions Act 2002, Companies Act 1993, Commerce Act 1986, Films Videos and Publications Classification Act 1993"
+      scope: "Full corpus of 4,025 New Zealand public Acts (1858-2026) from the Parliamentary Counsel Office /subscribe/ endpoint. 184,118 provisions and 47,194 definitions extracted via census-first ingestion pipeline."
       limitations: "Historical versions before digitisation may be incomplete; some regulations may lag behind gazette publication; Imperial Acts still in force in NZ may not be fully covered"
     languages:
       - "en"
@@ -45,4 +45,4 @@ sources:
 data_freshness:
   automated_checks: true
   check_frequency: "weekly"
-  last_verified: "PENDING_FIRST_INGEST"
+  last_verified: "2026-02-25"
